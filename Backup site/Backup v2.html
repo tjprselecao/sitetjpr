@@ -1,0 +1,1746 @@
+<meta charset="utf-8">
+<div id="tjpr-estagio-conteudo" lang="pt-BR">
+<style type="text/css">#tjpr-estagio-conteudo{--navy:#002a3a;--teal:#008c95;--mint:#49c5b1;--gold:#eeb134;--coral:#eb553b;
+--txt:#29434b;--muted:#566970;--line:#e1e8eb;--paper:#f4f8f8;--link:#00717a;--goldtxt:#7a5300;--coraltxt:#a3301a;
+--teal-i:#007c84;--teal-t:#e2f2f3;--navy-i:#002a3a;--navy-t:#e3eaed;--gold-i:#8f6200;--gold-t:#fcf0d4;--mint-i:#1d8a78;--mint-t:#e2f5f1;
+--r:3px 22px 3px 3px;--ease:cubic-bezier(.2,.7,.2,1);
+container-type:inline-size;container-name:est;interpolate-size:allow-keywords;
+box-sizing:border-box;width:100%;max-width:100%;margin:0;padding:16px 16px 88px;background:#fff;color:#233a43;
+font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;text-align:left;overflow-wrap:break-word}
+#tjpr-estagio-conteudo *,#tjpr-estagio-conteudo *::before,#tjpr-estagio-conteudo *::after{box-sizing:border-box}
+#tjpr-estagio-conteudo h2,#tjpr-estagio-conteudo h3,#tjpr-estagio-conteudo h4,#tjpr-estagio-conteudo h5,#tjpr-estagio-conteudo h6{margin:0;padding:0;border:0;background:none;font-family:inherit;color:var(--navy);font-weight:700;letter-spacing:0;text-transform:none}
+#tjpr-estagio-conteudo p{margin:0} #tjpr-estagio-conteudo ul,#tjpr-estagio-conteudo ol{margin:0;padding:0;list-style:none}
+#tjpr-estagio-conteudo svg{display:block;flex:none}
+#tjpr-estagio-conteudo a{color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,var(--teal) 45%,transparent);overflow-wrap:anywhere;transition:color .15s,text-decoration-color .15s}
+#tjpr-estagio-conteudo a:hover{color:var(--navy);text-decoration-color:var(--mint);text-decoration-thickness:2px}
+#tjpr-estagio-conteudo strong{color:var(--navy)}
+#tjpr-estagio-conteudo u{text-decoration-color:var(--coral)}
+#tjpr-estagio-conteudo :focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:3px}
+#tjpr-estagio-conteudo .t{font-size:14px;line-height:1.65;color:var(--txt)}
+#tjpr-estagio-conteudo .t p+p,#tjpr-estagio-conteudo .t p+ul,#tjpr-estagio-conteudo .t ul+p{margin-top:10px}
+#tjpr-estagio-conteudo .mut{color:var(--muted)}
+#tjpr-estagio-conteudo .teal{--c:var(--teal);--ci:var(--teal-i);--ct:var(--teal-t);--co:#fff}
+#tjpr-estagio-conteudo .navy{--c:var(--navy);--ci:var(--navy-i);--ct:var(--navy-t);--co:#fff}
+#tjpr-estagio-conteudo .gold{--c:var(--gold);--ci:var(--gold-i);--ct:var(--gold-t);--co:var(--navy)}
+#tjpr-estagio-conteudo .mint{--c:var(--mint);--ci:var(--mint-i);--ct:var(--mint-t);--co:var(--navy)}
+
+/* topo */
+#tjpr-estagio-conteudo .hero{position:relative;overflow:hidden;isolation:isolate;padding:30px 26px 72px;border-radius:3px 34px 0 0;background:var(--navy);color:#fff}
+#tjpr-estagio-conteudo .hero svg.arcs{position:absolute;z-index:-1;right:0;top:0;width:min(560px,78%);height:auto;pointer-events:none}
+#tjpr-estagio-conteudo .arcs circle{fill:none;stroke-dasharray:1900;stroke-dashoffset:1900;animation:e-draw 1.6s var(--ease) forwards}
+#tjpr-estagio-conteudo .arcs circle:nth-child(2){animation-delay:.12s} #tjpr-estagio-conteudo .arcs circle:nth-child(3){animation-delay:.24s} #tjpr-estagio-conteudo .arcs circle:nth-child(4){animation-delay:.36s}
+@keyframes e-draw{to{stroke-dashoffset:0}}
+#tjpr-estagio-conteudo .eyebrow{margin:0 0 14px;color:var(--mint);font-size:11px;font-weight:700;line-height:1.5;letter-spacing:1.4px}
+#tjpr-estagio-conteudo .hero h2{margin:0 0 15px;color:#fff;font-size:30px;line-height:1.2;letter-spacing:-.5px}
+#tjpr-estagio-conteudo .hero .lead{max-width:580px;color:#e8f2f3;font-size:15px;line-height:1.7}
+
+/* índice */
+#tjpr-estagio-conteudo .idx{position:relative;margin:-46px 14px 40px;padding:18px;background:rgba(255,255,255,.96);border:1px solid var(--line);border-top:4px solid var(--mint);border-radius:6px;box-shadow:0 14px 30px -18px rgba(0,42,58,.5);backdrop-filter:blur(8px);scroll-margin-top:24px}
+#tjpr-estagio-conteudo .idx h3{margin:0 0 14px;font-size:18px;line-height:1.4}
+#tjpr-estagio-conteudo .idx ul{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:8px}
+#tjpr-estagio-conteudo .idx a{display:flex;align-items:center;gap:11px;min-height:54px;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--navy);font-size:14px;line-height:1.4;text-decoration:none;transition:border-color .2s,box-shadow .2s,transform .2s var(--ease)}
+#tjpr-estagio-conteudo .idx a>span{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:8px;background:var(--ct);color:var(--ci);transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .idx a:hover,#tjpr-estagio-conteudo .idx a:focus-visible{border-color:var(--c);box-shadow:0 8px 18px -12px rgba(0,42,58,.45);transform:translateY(-2px)}
+#tjpr-estagio-conteudo .idx a:hover>span,#tjpr-estagio-conteudo .idx a:focus-visible>span{background:var(--c);color:var(--co)}
+
+/* seções */
+#tjpr-estagio-conteudo .sec{margin:0 0 48px;scroll-margin-top:24px}
+#tjpr-estagio-conteudo .sec>h3{position:relative;display:flex;align-items:center;gap:12px;margin:0 0 16px;padding:0 0 12px;border-bottom:2px solid var(--line);font-size:20px;line-height:1.35}
+#tjpr-estagio-conteudo .sec>h3::after{content:"";position:absolute;left:0;bottom:-2px;width:52px;height:2px;background:var(--c);transition:width .7s var(--ease)}
+#tjpr-estagio-conteudo .sec:target>h3::after{width:100%}
+#tjpr-estagio-conteudo .sec>h3>span{display:grid;place-items:center;flex:0 0 40px;height:40px;border-radius:10px;background:var(--c);color:var(--co)}
+#tjpr-estagio-conteudo .intro{max-width:760px;margin:0 0 18px;font-size:14px;line-height:1.6;color:var(--muted)}
+#tjpr-estagio-conteudo .intro.strong{color:var(--txt);line-height:1.7}
+#tjpr-estagio-conteudo .h4{margin:0 0 8px;font-size:15px;line-height:1.45}
+
+/* unidades (uma por linha) */
+#tjpr-estagio-conteudo .units{display:flex;flex-direction:column;gap:12px}
+#tjpr-estagio-conteudo .unit{position:relative;padding:18px 20px 18px 22px;background:#fff;border:1px solid var(--line);border-radius:5px;transition:border-color .2s,box-shadow .2s}
+#tjpr-estagio-conteudo .unit::before{content:"";position:absolute;left:-1px;top:-1px;bottom:-1px;width:4px;border-radius:5px 0 0 5px;background:var(--c)}
+#tjpr-estagio-conteudo .unit:hover{border-color:color-mix(in srgb,var(--c) 45%,var(--line));box-shadow:0 10px 24px -20px rgba(0,42,58,.6)}
+#tjpr-estagio-conteudo .unit>header{margin:0 0 12px}
+#tjpr-estagio-conteudo .unit .t>:last-child,#tjpr-estagio-conteudo .unit .t>:last-child>:last-child{margin-bottom:0}
+#tjpr-estagio-conteudo .unit>header h4{font-size:15px;line-height:1.5}
+#tjpr-estagio-conteudo .code{display:inline-block;margin:6px 0 0;padding:2px 8px;border-radius:3px;background:var(--navy);color:#fff;font-size:12px;font-weight:700;letter-spacing:.4px}
+#tjpr-estagio-conteudo .line{display:flex;align-items:flex-start;gap:9px;margin:0 0 8px}
+#tjpr-estagio-conteudo .line>svg{margin-top:3px;color:var(--muted)}
+#tjpr-estagio-conteudo .checks li{display:flex;gap:8px;margin:0 0 4px}
+#tjpr-estagio-conteudo .checks svg{margin-top:4px;color:var(--teal)}
+#tjpr-estagio-conteudo .sep{color:#9fb3b9;margin:0 6px}
+#tjpr-estagio-conteudo .phones a{white-space:nowrap}
+#tjpr-estagio-conteudo .btn{display:inline-flex;align-items:center;gap:8px;max-width:100%;margin:6px 0 0;padding:9px 15px;border-radius:5px;background:var(--navy);color:#fff;font-size:13px;font-weight:700;line-height:1.5;text-decoration:none;transition:background .2s,transform .2s var(--ease),box-shadow .2s}
+#tjpr-estagio-conteudo .btn svg{color:var(--mint)}
+#tjpr-estagio-conteudo .btn:hover{background:var(--teal);color:#fff;transform:translateY(-1px);box-shadow:0 8px 16px -10px rgba(0,140,149,.8)}
+#tjpr-estagio-conteudo .btn:hover svg{color:#fff}
+#tjpr-estagio-conteudo .note-s{margin:6px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
+#tjpr-estagio-conteudo .sub{margin:12px 0 0;padding:12px 0 0;border-top:1px dashed var(--line)}
+
+/* etapas: linha do tempo que se preenche ao rolar */
+#tjpr-estagio-conteudo .rail{position:relative;counter-reset:etapa;view-timeline-name:--rail}
+#tjpr-estagio-conteudo .rail::before,#tjpr-estagio-conteudo .rail::after{content:"";position:absolute;left:16px;top:18px;bottom:18px;width:2px;background:var(--line)}
+#tjpr-estagio-conteudo .rail::after{background:linear-gradient(var(--navy),var(--teal));transform-origin:top;transform:scaleY(1)}
+#tjpr-estagio-conteudo .step{position:relative;display:grid;grid-template-columns:34px minmax(0,1fr);gap:16px;padding:0 0 22px}
+#tjpr-estagio-conteudo .step:last-child{padding-bottom:0}
+#tjpr-estagio-conteudo .step::before{counter-increment:etapa;content:counter(etapa);position:relative;z-index:1;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-size:13px;font-weight:700;box-shadow:0 0 0 4px #fff}
+#tjpr-estagio-conteudo .step>div{padding-top:6px}
+#tjpr-estagio-conteudo .step h4{margin:0 0 5px}
+#tjpr-estagio-conteudo .step p{max-width:720px}
+@supports (animation-timeline: view()){
+  #tjpr-estagio-conteudo .rail::after{animation:e-fill linear both;animation-timeline:--rail;animation-range:cover 15% cover 75%}
+  #tjpr-estagio-conteudo .step::before{animation:e-node linear both;animation-timeline:view();animation-range:entry 70% entry 100%}
+}
+@keyframes e-fill{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes e-node{from{background:#fff;color:var(--navy);box-shadow:0 0 0 4px #fff,inset 0 0 0 2px var(--line)}to{background:var(--navy);color:#fff}}
+#tjpr-estagio-conteudo .howto{margin:26px 0 0;padding:20px;background:#eef7f7;border:1px solid #cfe6e7;border-radius:var(--r);scroll-margin-top:24px}
+#tjpr-estagio-conteudo .howto>header{display:flex;align-items:center;gap:12px;margin:0 0 16px}
+#tjpr-estagio-conteudo .howto>header>span{display:grid;place-items:center;flex:0 0 36px;height:36px;border-radius:9px;background:var(--teal);color:#fff}
+#tjpr-estagio-conteudo .howto>header h4{margin:0;font-size:16px}
+#tjpr-estagio-conteudo .howto>header p{font-size:14px;line-height:1.5;color:var(--muted)}
+#tjpr-estagio-conteudo .howto ol{counter-reset:passo;margin:0 0 14px}
+#tjpr-estagio-conteudo .howto li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;margin:0 0 10px}
+#tjpr-estagio-conteudo .howto li::before{counter-increment:passo;content:counter(passo);display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--teal);color:#fff;font-size:12px;font-weight:700}
+#tjpr-estagio-conteudo .howto li>div{padding-top:2px}
+#tjpr-estagio-conteudo .tip{margin:8px 0 0;padding:9px 12px;background:#fff;border-left:3px solid var(--gold);border-radius:0 4px 4px 0}
+
+/* sanfonas (somente Documentação e FAQ) */
+#tjpr-estagio-conteudo details>summary{list-style:none;cursor:pointer}
+#tjpr-estagio-conteudo details>summary::-webkit-details-marker{display:none}
+#tjpr-estagio-conteudo details::details-content{block-size:0;overflow:hidden;transition:block-size .4s var(--ease),content-visibility .4s allow-discrete}
+#tjpr-estagio-conteudo details[open]::details-content{block-size:auto}
+#tjpr-estagio-conteudo .chev{transition:transform .3s var(--ease)}
+#tjpr-estagio-conteudo details[open]>summary .chev{transform:rotate(180deg)}
+
+/* documentação */
+#tjpr-estagio-conteudo .strip{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;margin:0 0 18px;padding:14px 16px;background:var(--paper);border-radius:5px}
+#tjpr-estagio-conteudo .strip>div{flex:1 1 280px;min-width:0}
+#tjpr-estagio-conteudo .pill{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy);font-size:14px;font-weight:700;text-decoration:none;transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .pill:hover{background:var(--navy);color:#fff}
+#tjpr-estagio-conteudo .docs>summary{display:flex;align-items:center;gap:12px;padding:15px 18px;background:var(--navy);border-radius:5px;color:#fff;transition:border-radius .2s}
+#tjpr-estagio-conteudo .docs[open]>summary{border-radius:5px 5px 0 0}
+#tjpr-estagio-conteudo .docs>summary>svg:first-child{color:var(--gold)}
+#tjpr-estagio-conteudo .docs>summary .chev{color:var(--mint)}
+#tjpr-estagio-conteudo .docs>summary b{flex:1 1 auto;min-width:0;font-size:18px;line-height:1.4}
+#tjpr-estagio-conteudo .docs>summary small{font-size:12px;font-weight:400;color:#cfe3e6}
+#tjpr-estagio-conteudo .docs>summary:hover{background:#073848}
+#tjpr-estagio-conteudo .docs-b{padding:16px 20px 20px;background:#fff;border:1px solid var(--line);border-top:0;border-radius:0 0 5px 5px}
+#tjpr-estagio-conteudo .doclist{counter-reset:doc;margin:0 0 14px}
+#tjpr-estagio-conteudo .doc{display:grid;grid-template-columns:32px minmax(0,1fr);gap:14px;padding:18px 0;border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .doc::before{counter-increment:doc;content:counter(doc);display:grid;place-items:center;width:32px;height:32px;border-radius:7px;background:var(--gold-t);color:var(--goldtxt);font-size:14px;font-weight:700;transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .doc:hover::before{background:var(--gold);color:var(--navy)}
+#tjpr-estagio-conteudo .doc h5{margin:4px 0 0;font-size:17px;line-height:1.45}
+#tjpr-estagio-conteudo .doc .t{margin-top:10px;color:#304853}
+#tjpr-estagio-conteudo .badge{display:inline-flex;align-items:center;gap:5px;max-width:100%;margin:6px 0 0;padding:2px 9px 2px 7px;border:1px solid;border-radius:999px;font-size:12px;font-weight:700;line-height:1.5}
+#tjpr-estagio-conteudo .badge.prazo{background:var(--gold-t);border-color:#e7c56f;color:var(--goldtxt)}
+#tjpr-estagio-conteudo .badge.cond{background:#eef3f5;border-color:#cbd8dc;color:var(--muted)}
+#tjpr-estagio-conteudo .badge.pos{background:var(--teal-t);border-color:#a9d6d9;color:#00626a}
+#tjpr-estagio-conteudo .links{margin:10px 0 0}
+#tjpr-estagio-conteudo .links li{display:flex;gap:7px;margin:0 0 4px}
+#tjpr-estagio-conteudo .links svg{margin-top:3px;color:var(--teal-i)}
+#tjpr-estagio-conteudo .subdoc+.subdoc{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .subdoc h6{margin:0 0 4px;font-size:15px;line-height:1.5}
+#tjpr-estagio-conteudo .subdoc h6 span{color:var(--teal-i);margin-right:8px}
+#tjpr-estagio-conteudo .notice{display:grid;grid-template-columns:16px minmax(0,1fr);gap:10px;margin:12px 0 0;padding:10px 12px;border-left:3px solid var(--teal);background:var(--paper);border-radius:0 4px 4px 0}
+#tjpr-estagio-conteudo .notice>svg{margin-top:3px;color:var(--teal-i)}
+#tjpr-estagio-conteudo .notice>div>strong:first-child{display:block;margin:0 0 2px;font-size:13px}
+#tjpr-estagio-conteudo .notice.alert{border-color:var(--coral);background:#fdf0ec}
+#tjpr-estagio-conteudo .notice.alert>svg{color:var(--coral)}
+#tjpr-estagio-conteudo .notice.alert strong:first-child{color:var(--coraltxt)}
+#tjpr-estagio-conteudo .notice.warn{border-color:var(--gold);background:#fdf5e1;border-left-width:4px;padding:15px 17px}
+#tjpr-estagio-conteudo .notice.warn{grid-template-columns:22px minmax(0,1fr);gap:12px} #tjpr-estagio-conteudo .notice.warn>svg{color:#b07a00;margin-top:1px}
+#tjpr-estagio-conteudo .notice.warn .lbl{margin:0 0 4px;color:var(--goldtxt);font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+
+/* aproveitamento */
+#tjpr-estagio-conteudo .action{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin:0 0 24px;padding:20px 22px;background:var(--navy);border-radius:var(--r);color:#fff}
+#tjpr-estagio-conteudo .action>span{display:grid;place-items:center;flex:0 0 44px;height:44px;border-radius:50%;background:var(--mint);color:var(--navy)}
+#tjpr-estagio-conteudo .action>div{flex:1 1 260px;min-width:0}
+#tjpr-estagio-conteudo .action h4{margin:0 0 4px;color:#fff;font-size:16px}
+#tjpr-estagio-conteudo .action p{color:#d5e8ea;font-size:14px;line-height:1.6}
+#tjpr-estagio-conteudo .action a{display:inline-block;max-width:100%;padding:9px 15px;border-radius:5px;background:var(--mint);color:var(--navy);font-size:13px;font-weight:700;line-height:1.5;text-decoration:none;transition:background .2s,transform .2s var(--ease)}
+#tjpr-estagio-conteudo .action a:hover{background:#fff;transform:translateY(-1px)}
+
+/* orientações */
+#tjpr-estagio-conteudo .rows{border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .rows>li{border-bottom:1px solid var(--line)}
+#tjpr-estagio-conteudo .rowlink{display:flex;align-items:center;gap:12px;padding:12px 6px;color:var(--navy);font-size:14px;font-weight:700;line-height:1.45;text-decoration:none;transition:background .2s,padding .2s var(--ease)}
+#tjpr-estagio-conteudo .rowlink>span{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:8px;background:var(--teal-t);color:var(--teal-i);transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .rowlink:hover{background:var(--paper);padding-left:12px;color:var(--navy)}
+#tjpr-estagio-conteudo .rowlink:hover>span{background:var(--teal);color:#fff}
+#tjpr-estagio-conteudo .terms{margin:26px 0 0}
+#tjpr-estagio-conteudo .terms h5{display:flex;align-items:center;gap:9px;margin:20px 0 6px;font-size:15px;line-height:1.45}
+#tjpr-estagio-conteudo .terms h5 svg{color:var(--c)}
+#tjpr-estagio-conteudo .terms li{padding:12px 0 12px 28px;border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .terms li:last-child{border-bottom:1px solid var(--line)}
+#tjpr-estagio-conteudo .terms li>p:first-child{font-size:14px;font-weight:700;line-height:1.5;margin:0 0 3px}
+#tjpr-estagio-conteudo .terms li>p+p{color:var(--muted);font-size:13px;line-height:1.6}
+
+/* programa */
+#tjpr-estagio-conteudo .quote{max-width:720px;margin:0 0 12px;padding:2px 0 2px 16px;border-left:3px solid var(--navy);color:var(--navy);font-size:15px;line-height:1.7}
+
+/* legislação */
+#tjpr-estagio-conteudo .laws{display:flex;flex-direction:column;gap:26px}
+#tjpr-estagio-conteudo .laws ul{border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .laws li{display:grid;grid-template-columns:78px minmax(0,1fr);gap:12px;align-items:start;padding:11px 0;border-bottom:1px solid var(--line)}
+#tjpr-estagio-conteudo .tag{padding:2px 6px;border-radius:3px;background:var(--navy);color:#fff;font-size:12px;font-weight:700;line-height:1.6;text-align:center}
+#tjpr-estagio-conteudo .tag.ref{background:var(--teal-t);color:#00626a}
+#tjpr-estagio-conteudo .laws li a{font-size:14px;font-weight:700;line-height:1.5}
+#tjpr-estagio-conteudo .laws small{display:block;margin-top:3px;color:var(--muted);font-size:13px;line-height:1.6}
+
+/* FAQ */
+#tjpr-estagio-conteudo .search{display:flex;align-items:center;gap:10px;margin:0 0 14px;padding:0 12px;background:#fff;border:1px solid #c9d8dc;border-radius:6px;transition:border-color .2s,box-shadow .2s}
+#tjpr-estagio-conteudo .search svg{color:var(--muted)}
+#tjpr-estagio-conteudo .search:focus-within{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-t)}
+#tjpr-estagio-conteudo .search input{flex:1 1 auto;min-width:0;height:42px;padding:0;border:0;outline:none;background:transparent;color:var(--txt);font:inherit;font-size:14px}
+#tjpr-estagio-conteudo .faq{border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .faq details{border-bottom:1px solid var(--line)}
+#tjpr-estagio-conteudo .faq details[data-miss]{display:none}
+#tjpr-estagio-conteudo .faq summary{display:grid;grid-template-columns:30px minmax(0,1fr) 18px;gap:12px;align-items:start;padding:12px 10px;color:var(--navy);font-size:15px;line-height:1.5;transition:background .2s}
+#tjpr-estagio-conteudo .faq summary:hover,#tjpr-estagio-conteudo .faq details[open]>summary{background:var(--paper)}
+#tjpr-estagio-conteudo .faq summary>i{height:24px;line-height:24px;border-radius:5px;background:var(--mint-t);color:var(--mint-i);font-size:12px;font-style:normal;font-weight:700;text-align:center;transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .faq details[open] summary>i{background:var(--mint);color:var(--navy)}
+#tjpr-estagio-conteudo .faq summary .chev{margin-top:3px}
+#tjpr-estagio-conteudo .ans{padding:6px 40px 8px 52px;font-size:14px;line-height:1.7;color:#304853}
+#tjpr-estagio-conteudo .ans>p,#tjpr-estagio-conteudo .ans>ul{margin:0 0 11px}
+#tjpr-estagio-conteudo .ans ul{padding-left:20px;list-style:disc}
+#tjpr-estagio-conteudo .ans li{margin:0 0 6px}
+#tjpr-estagio-conteudo .ans li::marker{color:var(--teal)}
+#tjpr-estagio-conteudo .ans .law{padding:4px 0 4px 12px;border-left:3px solid var(--line);color:var(--muted)}
+#tjpr-estagio-conteudo .ans .subt{margin-top:14px;font-weight:700;color:var(--navy)}
+#tjpr-estagio-conteudo .empty{display:none;padding:14px 10px;color:var(--muted);font-size:14px}
+#tjpr-estagio-conteudo .faq:not(:has(details:not([data-miss]))) .empty{display:block}
+#tjpr-estagio-conteudo .end{margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--muted)}
+
+/* botão fixo */
+#tjpr-estagio-conteudo .top{position:fixed;left:50%;bottom:20px;z-index:100;display:inline-flex;align-items:center;gap:6px;padding:7px 14px 7px 11px;border-radius:20px;background:var(--navy);color:#fff;box-shadow:0 4px 12px rgba(0,42,58,.25);font-size:13px;line-height:1.5;text-decoration:none;transform:translateX(-50%);transition:background .2s}
+#tjpr-estagio-conteudo .top svg{color:var(--mint)}
+#tjpr-estagio-conteudo .top:hover{background:var(--teal);color:#fff}
+#tjpr-estagio-conteudo .top:hover svg{color:#fff}
+@supports (animation-timeline: scroll()){
+  #tjpr-estagio-conteudo .top{animation:e-in linear both;animation-timeline:scroll(root);animation-range:0 480px}
+}
+@keyframes e-in{from{opacity:0;transform:translate(-50%,16px);visibility:hidden}to{opacity:1;transform:translate(-50%,0);visibility:visible}}
+
+/* telas estreitas (largura do próprio bloco) */
+@container est (max-width: 520px){
+  #tjpr-estagio-conteudo .hero{padding:24px 18px 64px}
+  #tjpr-estagio-conteudo .idx{margin:-44px 6px 32px;padding:14px}
+  #tjpr-estagio-conteudo .unit{padding:16px 14px 16px 18px}
+  #tjpr-estagio-conteudo .docs-b{padding:14px}
+  #tjpr-estagio-conteudo .doc{grid-template-columns:1fr;gap:8px}
+  #tjpr-estagio-conteudo .ans{padding:4px 10px 8px 10px}
+  #tjpr-estagio-conteudo .howto{padding:16px}
+  #tjpr-estagio-conteudo .terms li{padding-left:0}
+}
+@media (prefers-reduced-motion: reduce){
+  #tjpr-estagio-conteudo *,#tjpr-estagio-conteudo *::before,#tjpr-estagio-conteudo *::after{animation:none!important;transition:none!important}
+  #tjpr-estagio-conteudo .arcs circle{stroke-dashoffset:0}
+}
+@media print{
+  #tjpr-estagio-conteudo .top,#tjpr-estagio-conteudo .search,#tjpr-estagio-conteudo .idx{display:none!important}
+  #tjpr-estagio-conteudo details::details-content{content-visibility:visible;block-size:auto}
+  #tjpr-estagio-conteudo .hero{background:#fff;color:var(--navy);border:2px solid var(--navy);padding-bottom:30px}
+  #tjpr-estagio-conteudo .hero h2,#tjpr-estagio-conteudo .hero .lead{color:var(--navy)}
+  #tjpr-estagio-conteudo .rail::after{transform:none}
+  #tjpr-estagio-conteudo a[href^="http"]::after{content:" (" attr(href) ")";font-size:11px;color:#555;word-break:break-all}
+}
+
+/* compartimento C */
+#tjpr-estagio-conteudo .sec{position:relative;margin:30px 0 40px;padding:34px 22px 24px;background:#fff;border:1px solid var(--line);border-top:2px solid var(--c);border-radius:10px;box-shadow:0 12px 26px -24px rgba(0,42,58,.7);scroll-margin-top:40px;transition:box-shadow .3s}
+#tjpr-estagio-conteudo .sec:target{box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 30%,transparent),0 12px 26px -24px rgba(0,42,58,.7)}
+#tjpr-estagio-conteudo .sec>.badge-ico{position:absolute;top:-25px;left:18px;display:flex;padding:0 6px;background:#fff}
+#tjpr-estagio-conteudo .sec>.badge-ico>span{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:var(--c);color:var(--co);transition:transform .3s var(--ease)}
+#tjpr-estagio-conteudo .sec:hover>.badge-ico>span{transform:translateY(-2px) rotate(-4deg)}
+#tjpr-estagio-conteudo .sec>h3{display:block;margin:0 0 6px;padding:0;border:0;font-size:20px;line-height:1.35}
+#tjpr-estagio-conteudo .sec>h3::after{display:none}
+#tjpr-estagio-conteudo .sec>.intro{margin:0 0 16px}
+/* linhas em duas colunas (subtítulo -> conteúdo) */
+#tjpr-estagio-conteudo .rows2{border-bottom:1px solid var(--line)}
+#tjpr-estagio-conteudo .r{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:8px 24px;padding:16px 18px;border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .rows2>.r:nth-child(odd){background:#f6f9f9}
+#tjpr-estagio-conteudo .r>h4,#tjpr-estagio-conteudo .r>div>h4{font-size:15px;line-height:1.5}
+#tjpr-estagio-conteudo .r.full{grid-template-columns:1fr}
+#tjpr-estagio-conteudo .r .t>:last-child{margin-bottom:0}
+#tjpr-estagio-conteudo .r h4 .ic{display:inline-flex;vertical-align:-3px;margin-right:6px;color:var(--ci)}
+#tjpr-estagio-conteudo .r .code{margin-top:8px}
+#tjpr-estagio-conteudo .matl{display:flex;align-items:flex-start;gap:8px;margin:0 0 8px}
+#tjpr-estagio-conteudo .matl svg{margin-top:2px;color:var(--teal-i)}
+#tjpr-estagio-conteudo .termo{margin:0 0 14px} #tjpr-estagio-conteudo .termo:last-child{margin:0}
+#tjpr-estagio-conteudo .termo>p:first-child{font-weight:700;margin:0 0 3px}
+#tjpr-estagio-conteudo .termo>p+p{color:var(--muted);font-size:13px;line-height:1.6}
+@container est (max-width: 600px){ #tjpr-estagio-conteudo .r{grid-template-columns:1fr} }
+/* legislação em duas colunas */
+#tjpr-estagio-conteudo .laws{flex-direction:row;flex-wrap:wrap;gap:20px 28px}
+#tjpr-estagio-conteudo .laws>div{flex:1 1 330px;min-width:0}
+/* aproveitamento: botão abaixo do texto */
+#tjpr-estagio-conteudo .action{flex-wrap:nowrap;align-items:flex-start}
+#tjpr-estagio-conteudo .action a{margin-top:14px}
+/* placeholder de imagem */
+#tjpr-estagio-conteudo .ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%;margin:0 0 18px;padding:12px;background:var(--paper) repeating-linear-gradient(135deg,transparent 0 14px,rgba(0,140,149,.05) 14px 28px);border:2px dashed #b9d3d6;border-radius:8px;color:var(--muted);text-align:center;font-size:12px;line-height:1.5}
+#tjpr-estagio-conteudo .ph svg{color:var(--teal)} #tjpr-estagio-conteudo .ph strong{font-size:14px}
+/* botão fixo com sombra leve */
+#tjpr-estagio-conteudo .top{box-shadow:0 3px 12px rgba(0,42,58,.2),0 0 0 3px rgba(255,255,255,.9)}
+@media print{ #tjpr-estagio-conteudo .sec{box-shadow:none} #tjpr-estagio-conteudo .ph{display:none} }
+#tjpr-estagio-conteudo .banner{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:3/1;object-fit:cover;margin:0 0 18px;border-radius:10px}
+#tjpr-estagio-conteudo .banner-4x1{aspect-ratio:4/1}
+
+/* menu lateral flutuante (somente CSS): aparece quando o índice sai da tela; expande à esquerda no hover/foco */
+#tjpr-estagio-conteudo .fnav{display:none;--fnav-atraso:.15s}
+#tjpr-estagio-conteudo .fnav ul{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+#tjpr-estagio-conteudo .fnav li{display:block;width:100%}
+#tjpr-estagio-conteudo .fnav a{display:flex;align-items:center;justify-content:flex-end;gap:0;padding:3px;border-radius:9px;color:var(--navy);font-size:13.5px;font-weight:700;line-height:1.3;text-decoration:none;white-space:nowrap;overflow-wrap:normal;transition:background .2s,gap .3s var(--ease) var(--fnav-atraso)}
+#tjpr-estagio-conteudo .fnav .ic{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:8px;background:var(--ct);color:var(--ci);transition:background .2s,color .2s}
+#tjpr-estagio-conteudo .fnav .lb{display:block;max-width:0;overflow:hidden;opacity:0;padding-left:0;transition:max-width .32s var(--ease) var(--fnav-atraso),opacity .2s linear var(--fnav-atraso),padding .32s var(--ease) var(--fnav-atraso)}
+#tjpr-estagio-conteudo .fnav:hover a,#tjpr-estagio-conteudo .fnav:focus-within a{gap:10px;transition-delay:0s}
+#tjpr-estagio-conteudo .fnav:hover .lb,#tjpr-estagio-conteudo .fnav:focus-within .lb{max-width:280px;opacity:1;padding-left:6px;transition-delay:0s,.06s,0s}
+#tjpr-estagio-conteudo .fnav a:hover,#tjpr-estagio-conteudo .fnav a:focus-visible{background:var(--paper);color:var(--navy)}
+#tjpr-estagio-conteudo .fnav a:hover .ic,#tjpr-estagio-conteudo .fnav a:focus-visible .ic{background:var(--c);color:var(--co)}
+#tjpr-estagio-conteudo .fnav a:focus-visible{outline-offset:0}
+@supports (animation-timeline: view()) and (timeline-scope: none){
+ @media screen and (min-width: 900px){
+  #tjpr-estagio-conteudo{timeline-scope:--idx,--s-atendimento,--s-etapas,--s-documentacao,--s-aproveitamento,--s-pagamento,--s-certidoes,--s-sistemas,--s-instituicoes,--s-orientacoes,--s-programa,--s-legislacao,--s-faq}
+  #tjpr-estagio-conteudo .idx{view-timeline-name:--idx;view-timeline-axis:block}
+  #tjpr-estagio-conteudo .sec{view-timeline-axis:block;view-timeline-inset:35% 64%}
+  #tjpr-estagio-conteudo #tjpr-estagio-atendimento{view-timeline-name:--s-atendimento}
+  #tjpr-estagio-conteudo #tjpr-estagio-etapas{view-timeline-name:--s-etapas}
+  #tjpr-estagio-conteudo #tjpr-estagio-documentacao{view-timeline-name:--s-documentacao}
+  #tjpr-estagio-conteudo #tjpr-estagio-aproveitamento{view-timeline-name:--s-aproveitamento}
+  #tjpr-estagio-conteudo #tjpr-estagio-pagamento{view-timeline-name:--s-pagamento}
+  #tjpr-estagio-conteudo #tjpr-estagio-certidoes{view-timeline-name:--s-certidoes}
+  #tjpr-estagio-conteudo #tjpr-estagio-sistemas{view-timeline-name:--s-sistemas}
+  #tjpr-estagio-conteudo #tjpr-estagio-instituicoes{view-timeline-name:--s-instituicoes}
+  #tjpr-estagio-conteudo #tjpr-estagio-orientacoes{view-timeline-name:--s-orientacoes}
+  #tjpr-estagio-conteudo #tjpr-estagio-programa{view-timeline-name:--s-programa}
+  #tjpr-estagio-conteudo #tjpr-estagio-legislacao{view-timeline-name:--s-legislacao}
+  #tjpr-estagio-conteudo #tjpr-estagio-faq{view-timeline-name:--s-faq}
+  #tjpr-estagio-conteudo .fnav{display:block;position:fixed;top:50%;right:16px;z-index:99;max-height:calc(100vh - 32px);overflow-y:auto;scrollbar-width:none;padding:6px;background:rgba(255,255,255,.97);border:1px solid var(--line);border-right:4px solid var(--mint);border-radius:12px 4px 4px 12px;box-shadow:0 14px 30px -16px rgba(0,42,58,.55);translate:0 -50%;
+   animation:e-fnav linear both;animation-timeline:--idx;animation-range:exit 75% exit 100%}
+  #tjpr-estagio-conteudo .fnav .ic{animation:e-cur linear none;animation-range:cover 0% cover calc(100% + 48px)}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-atendimento"] .ic{animation-timeline:--s-atendimento}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-etapas"] .ic{animation-timeline:--s-etapas}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-documentacao"] .ic{animation-timeline:--s-documentacao}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-aproveitamento"] .ic{animation-timeline:--s-aproveitamento}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-pagamento"] .ic{animation-timeline:--s-pagamento}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-certidoes"] .ic{animation-timeline:--s-certidoes}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-sistemas"] .ic{animation-timeline:--s-sistemas}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-instituicoes"] .ic{animation-timeline:--s-instituicoes}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-orientacoes"] .ic{animation-timeline:--s-orientacoes}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-programa"] .ic{animation-timeline:--s-programa}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-legislacao"] .ic{animation-timeline:--s-legislacao}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-faq"] .ic{animation-timeline:--s-faq}
+  #tjpr-estagio-conteudo .top{display:none}
+ }
+ @media screen and (min-width: 900px) and (max-height: 620px){
+  #tjpr-estagio-conteudo .fnav ul{gap:1px}
+  #tjpr-estagio-conteudo .fnav a{padding:2px}
+  #tjpr-estagio-conteudo .fnav .ic{flex-basis:28px;height:28px}
+  #tjpr-estagio-conteudo .fnav .ic svg{width:16px;height:16px}
+ }
+}
+@keyframes e-fnav{from{opacity:0;transform:translateX(24px);visibility:hidden}to{opacity:1;transform:none;visibility:visible}}
+@keyframes e-fnav-rm{from{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}
+@keyframes e-cur{from,to{background:var(--c);color:var(--co)}}
+@media (prefers-reduced-motion: reduce){
+ @supports (animation-timeline: view()) and (timeline-scope: none){
+  @media screen and (min-width: 900px){
+   #tjpr-estagio-conteudo .fnav{animation:e-fnav-rm linear both!important;animation-timeline:--idx!important;animation-range:exit 75% exit 100%!important}
+   #tjpr-estagio-conteudo .fnav .ic{animation:e-cur linear none!important;animation-range:cover 0% cover calc(100% + 48px)!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-atendimento"] .ic{animation-timeline:--s-atendimento!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-etapas"] .ic{animation-timeline:--s-etapas!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-documentacao"] .ic{animation-timeline:--s-documentacao!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-aproveitamento"] .ic{animation-timeline:--s-aproveitamento!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-pagamento"] .ic{animation-timeline:--s-pagamento!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-certidoes"] .ic{animation-timeline:--s-certidoes!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-sistemas"] .ic{animation-timeline:--s-sistemas!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-instituicoes"] .ic{animation-timeline:--s-instituicoes!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-orientacoes"] .ic{animation-timeline:--s-orientacoes!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-programa"] .ic{animation-timeline:--s-programa!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-legislacao"] .ic{animation-timeline:--s-legislacao!important}
+  #tjpr-estagio-conteudo .fnav a[href="#tjpr-estagio-faq"] .ic{animation-timeline:--s-faq!important}
+   #tjpr-estagio-conteudo .fnav a{transition:gap 0s var(--fnav-atraso)!important}
+   #tjpr-estagio-conteudo .fnav .lb{transition:max-width 0s var(--fnav-atraso),opacity 0s var(--fnav-atraso),padding 0s var(--fnav-atraso)!important}
+   #tjpr-estagio-conteudo .fnav:hover a,#tjpr-estagio-conteudo .fnav:focus-within a,#tjpr-estagio-conteudo .fnav:hover .lb,#tjpr-estagio-conteudo .fnav:focus-within .lb{transition-delay:0s!important}
+  }
+ }
+}
+@media print{ #tjpr-estagio-conteudo .fnav{display:none!important} }
+
+/* busca em toda a página */
+#tjpr-estagio-conteudo [data-bx-off]{display:none!important}
+#tjpr-estagio-conteudo .step[data-bx-num]::before,#tjpr-estagio-conteudo .doc[data-bx-num]::before{content:attr(data-bx-num)}
+::highlight(tjpr-busca){background-color:#ffe08a;color:#1b2b31}
+#tjpr-estagio-conteudo .bx-main{margin:14px 0 0}
+#tjpr-estagio-conteudo .bx-main .search{margin:0}
+#tjpr-estagio-conteudo .bx-main .search svg{color:var(--teal)}
+#tjpr-estagio-conteudo.bx-on .bx-main .search{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-t)}
+#tjpr-estagio-conteudo .bx-none{display:none;margin:10px 0 0;padding:10px 12px;border-left:3px solid var(--coral);border-radius:0 4px 4px 0;background:#fdeeea;color:var(--coraltxt);font-size:14px}
+#tjpr-estagio-conteudo.bx-zero .bx-none{display:block}
+#tjpr-estagio-conteudo .idx li[data-bx-n] a::after{content:attr(data-bx-n);display:grid;place-items:center;flex:none;min-width:24px;height:22px;margin-left:auto;padding:0 7px;border-radius:999px;background:var(--c);color:var(--co);font-size:12px;font-weight:700}
+#tjpr-estagio-conteudo .idx li[data-bx-zero] a{opacity:.42}
+#tjpr-estagio-conteudo .idx li[data-bx-zero] a::after{display:none}
+#tjpr-estagio-conteudo .fnav li[data-bx-zero] .ic{opacity:.35}
+#tjpr-estagio-conteudo .fnav li[data-bx-zero] .lb{color:var(--muted);font-weight:400}
+#tjpr-estagio-conteudo .fnav .ic{position:relative}
+#tjpr-estagio-conteudo .fnav li[data-bx-n]:not([data-bx-zero]) .ic::after{content:attr(data-bx-n);position:absolute;top:-5px;left:-6px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:var(--navy);box-shadow:0 0 0 2px #fff;color:#fff;font-size:10px;font-weight:700;line-height:17px;text-align:center}
+#tjpr-estagio-conteudo .fnav .bx-li{margin-top:2px;padding-top:5px;border-top:1px solid var(--line)}
+#tjpr-estagio-conteudo .fnav .fbx{display:flex;align-items:center;justify-content:flex-end;gap:0;padding:3px;border-radius:9px;transition:gap .3s var(--ease) var(--fnav-atraso)}
+#tjpr-estagio-conteudo .fnav:hover .fbx,#tjpr-estagio-conteudo .fnav:focus-within .fbx{gap:10px;transition-delay:0s}
+#tjpr-estagio-conteudo .fnav .fbx .lb{display:flex;align-items:center;gap:4px}
+#tjpr-estagio-conteudo .fnav .fbx input{width:190px;height:32px;padding:0 9px;border:1px solid #c9d8dc;border-radius:6px;background:#fff;color:var(--txt);font:inherit;font-size:13px;font-weight:400;outline:none}
+#tjpr-estagio-conteudo .fnav .fbx input::-webkit-search-cancel-button{display:none}
+#tjpr-estagio-conteudo .fnav .fbx input:focus{border-color:var(--teal);box-shadow:0 0 0 3px var(--teal-t)}
+#tjpr-estagio-conteudo .fnav .bx-x{display:none;place-items:center;width:28px;height:28px;padding:0;border:0;border-radius:6px;background:var(--paper);color:var(--navy);cursor:pointer}
+#tjpr-estagio-conteudo .fnav .bx-x:hover{background:var(--coral);color:#fff}
+#tjpr-estagio-conteudo.bx-on .fnav .bx-x{display:grid}
+#tjpr-estagio-conteudo .fnav .fbx .ic{cursor:pointer}
+#tjpr-estagio-conteudo .fnav .fbx:hover .ic{background:var(--c);color:var(--co)}
+#tjpr-estagio-conteudo.bx-on .fnav .bx-li .ic{background:var(--teal);color:#fff}
+#tjpr-estagio-conteudo.bx-on .fnav .bx-li .ic::after{content:"";position:absolute;top:-3px;left:-3px;width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 2px #fff}
+@supports (animation-timeline: view()) and (timeline-scope: none){
+ #tjpr-estagio-conteudo .fnav .bx-li .ic{animation:none}
+}
+@media (prefers-reduced-motion: reduce){ #tjpr-estagio-conteudo .fnav .bx-li .ic{animation:none!important} }
+#tjpr-estagio-conteudo:not(.bx-js) .bx-main,#tjpr-estagio-conteudo:not(.bx-js) .fnav .bx-li{display:none}
+
+/* faixa de busca ativa (movida para o <body> pelo script, por isso os estilos são próprios) */
+#tjpr-estagio-bxbar{position:fixed;left:50%;bottom:16px;z-index:2147483000;display:none;align-items:center;gap:6px;box-sizing:border-box;max-width:calc(100% - 24px);margin:0;padding:6px;border-radius:999px;background:#002a3a;color:#fff;box-shadow:0 10px 28px -8px rgba(0,42,58,.6),0 0 0 3px rgba(255,255,255,.92);font:13px/1.4 Arial,Helvetica,sans-serif;text-align:left;transform:translateX(-50%)}
+#tjpr-estagio-bxbar *{box-sizing:border-box}
+#tjpr-estagio-bxbar.bxb-on,#tjpr-estagio-bxbar.bxb-aviso{display:flex}
+#tjpr-estagio-bxbar svg{display:block;flex:none}
+#tjpr-estagio-bxbar .bxb-ico{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.1);color:#49c5b1}
+#tjpr-estagio-bxbar .bxb-msg{min-width:0;padding:0 6px 0 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700}
+#tjpr-estagio-bxbar .bxb-nav{display:flex;flex:none;gap:2px;padding:2px;border-radius:999px;background:rgba(255,255,255,.1)}
+#tjpr-estagio-bxbar button{appearance:none;-webkit-appearance:none;display:inline-flex;align-items:center;gap:5px;flex:none;height:30px;min-width:0;margin:0;padding:0 11px;border:0;border-radius:999px;background:transparent;box-shadow:none;color:#fff;font:700 12px/1 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;cursor:pointer;transition:background .2s,color .2s}
+#tjpr-estagio-bxbar button:hover{background:rgba(255,255,255,.18);color:#fff}
+#tjpr-estagio-bxbar button:focus-visible{outline:3px solid #eeb134;outline-offset:1px}
+#tjpr-estagio-bxbar .bxb-x{background:#49c5b1;color:#002a3a}
+#tjpr-estagio-bxbar .bxb-x:hover{background:#fff;color:#002a3a}
+#tjpr-estagio-bxbar.bxb-zero{background:#a3301a}
+#tjpr-estagio-bxbar.bxb-zero .bxb-ico{color:#fff}
+#tjpr-estagio-bxbar.bxb-zero .bxb-nav,#tjpr-estagio-bxbar.bxb-um .bxb-nav{display:none}
+#tjpr-estagio-bxbar.bxb-aviso .bxb-nav{display:none}
+#tjpr-estagio-bxbar.bxb-aviso:not(.bxb-on) .bxb-x{display:none}
+#tjpr-estagio-bxbar.bxb-aviso:not(.bxb-on){padding-right:16px}
+@media (max-width: 600px){ #tjpr-estagio-bxbar{bottom:12px;font-size:12px} #tjpr-estagio-bxbar .bxb-nav span,#tjpr-estagio-bxbar .bxb-ico{display:none} #tjpr-estagio-bxbar .bxb-msg{padding-left:8px} #tjpr-estagio-bxbar .bxb-nav button{padding:0 8px} }
+@media print{ #tjpr-estagio-bxbar{display:none!important} }
+::highlight(tjpr-busca-atual){background-color:#eb553b;color:#fff}
+#tjpr-estagio-conteudo.bx-on .top{display:none}
+#tjpr-estagio-conteudo .idx li[data-bx-zero] a:hover,#tjpr-estagio-conteudo .idx li[data-bx-zero] a:focus-visible{opacity:.85}
+#tjpr-estagio-conteudo .fnav li[data-bx-zero] a:hover .ic,#tjpr-estagio-conteudo .fnav li[data-bx-zero] a:focus-visible .ic{opacity:1}
+
+/* item RG + CPF: fundamentação legal */
+#tjpr-estagio-conteudo .notice.lei{border-color:var(--navy);background:var(--navy-t)}
+#tjpr-estagio-conteudo .notice.lei>svg{color:var(--navy)}
+#tjpr-estagio-conteudo .notice.lei>div>strong:first-child{margin:0 0 8px;color:var(--navy);font-size:13px;letter-spacing:.3px;text-transform:uppercase}
+#tjpr-estagio-conteudo .notice.lei p{margin:0 0 8px;font-size:14px;line-height:1.65}
+#tjpr-estagio-conteudo .notice.lei .lei-q{font-style:italic;color:var(--navy)}
+#tjpr-estagio-conteudo .notice.lei .lei-c{margin:10px 0 0;padding:10px 12px;border-radius:4px;background:#fff;color:var(--navy);font-weight:700}
+#tjpr-estagio-conteudo .notice.lei .lei-f{margin:10px 0 0;color:var(--muted);font-size:12px}
+#tjpr-estagio-conteudo .cit{margin:0 0 12px;padding:10px 14px;border-left:3px solid #9fb3b9;border-radius:0 4px 4px 0;background:rgba(255,255,255,.7);color:#3f5968;font-family:Georgia,"Times New Roman",serif;font-size:14px;line-height:1.6}
+#tjpr-estagio-conteudo .cit p{margin:0 0 6px;font-size:14px}
+#tjpr-estagio-conteudo .cit p:last-child{margin:0}
+#tjpr-estagio-conteudo .cit .incisos{margin:0 0 6px;padding:0 0 0 14px}
+#tjpr-estagio-conteudo .cit .incisos li{margin:0 0 2px}
+#tjpr-estagio-conteudo .subdoc>.badge{margin:0 0 8px}
+#tjpr-estagio-conteudo .notice.anexo{margin:0 0 16px}
+</style>
+<div class="hero"><svg aria-hidden="true" class="arcs" focusable="false" viewbox="0 0 560 340"><circle cx="560" cy="10" r="140" stroke="#49c5b1" stroke-opacity=".30" stroke-width="28"></circle><circle cx="560" cy="10" r="220" stroke="#008c95" stroke-opacity=".40" stroke-width="11"></circle><circle cx="560" cy="10" r="285" stroke="#49c5b1" stroke-opacity=".16" stroke-width="2"></circle><circle cx="480" cy="340" r="84" stroke="#eeb134" stroke-opacity=".6" stroke-width="3"></circle></svg>
+<p class="eyebrow">— INFORMAÇÕES E ATENDIMENTO</p>
+
+<h2>Programa de estágio</h2>
+
+<p class="lead">Encontre etapas do processo seletivo, documentação, modelos, legislação e canais de atendimento relacionados ao estágio no TJPR, além de contatos para residência jurídica e voluntariado. Use o índice para ir direto ao assunto desejado.</p>
+</div>
+
+<nav aria-label="Índice desta página" class="idx" id="tjpr-estagio-indice" tabindex="-1">
+<h3>Nesta página:</h3>
+
+<ul>
+	<li class="teal"><a href="#tjpr-estagio-atendimento"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M4 15v-3a8 8 0 0 1 16 0v3"></path><rect height="6" rx="1.5" width="4" x="3" y="13.5"></rect><rect height="6" rx="1.5" width="4" x="17" y="13.5"></rect><path d="M19 19.5v.5a2 2 0 0 1-2 2h-4"></path></svg></span>Atendimento e balcões virtuais</a></li>
+	<li class="navy"><a href="#tjpr-estagio-etapas"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="19" r="2.5"></circle><circle cx="18" cy="5" r="2.5"></circle><path d="M8.5 19H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5"></path></svg></span>Etapas do processo seletivo</a></li>
+	<li class="gold"><a href="#tjpr-estagio-documentacao"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m9 13.5 2 2 4-4"></path></svg></span>Documentação para admissão</a></li>
+	<li class="mint"><a href="#tjpr-estagio-aproveitamento"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M7 4 3 8l4 4"></path><path d="M3 8h14"></path><path d="m17 20 4-4-4-4"></path><path d="M21 16H7"></path></svg></span>Aproveitamento de processo seletivo</a></li>
+	<li class="teal"><a href="#tjpr-estagio-pagamento"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M20 7V5.5A1.5 1.5 0 0 0 18.5 4H5a2 2 0 0 0 0 4h14.5A1.5 1.5 0 0 1 21 9.5V12"></path><path d="M3 6v12a2 2 0 0 0 2 2h14.5a1.5 1.5 0 0 0 1.5-1.5V16"></path><path d="M21 12h-4a2 2 0 0 0 0 4h4z"></path></svg></span>Pagamento e frequência</a></li>
+	<li class="navy"><a href="#tjpr-estagio-certidoes"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="m9 14 2 2 4-4"></path></svg></span>Certidões e ofícios</a></li>
+	<li class="gold"><a href="#tjpr-estagio-sistemas"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2" width="18" x="3" y="4"></rect><path d="M8 20h8M12 16v4"></path></svg></span>Acesso à rede e aos sistemas</a></li>
+	<li class="mint"><a href="#tjpr-estagio-instituicoes"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.5 12 5 2 9.5l10 4.5z"></path><path d="M6 11.3V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.7"></path><path d="M22 9.5V15"></path></svg></span>Instituições de ensino</a></li>
+	<li class="teal"><a href="#tjpr-estagio-orientacoes"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H9a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V6z"></path><path d="M16 2v4h4"></path><path d="M4 7v12a2 2 0 0 0 2 2h9"></path></svg></span>Modelos, orientações e materiais</a></li>
+	<li class="navy"><a href="#tjpr-estagio-programa"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg></span>Sobre o programa de estágio</a></li>
+	<li class="gold"><a href="#tjpr-estagio-legislacao"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M7.5 21h9M4 7h16"></path><path d="M12 5 4 7m8-2 8 2"></path><path d="m4 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path><path d="m20 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path></svg></span>Legislação</a></li>
+	<li class="mint"><a href="#tjpr-estagio-faq"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.1A8.5 8.5 0 1 1 21 12z"></path><path d="M9.8 9.6a2.3 2.3 0 1 1 3.2 2.1c-.6.3-1 .8-1 1.4v.3"></path><path d="M12 16.3h.01"></path></svg></span>Perguntas Frequentes (FAQ)</a></li>
+</ul>
+
+<div class="bx-main"><label class="search" for="tjpr-estagio-busca"><svg aria-hidden="true" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input aria-label="Buscar em toda a página" autocomplete="off" id="tjpr-estagio-busca" placeholder="Buscar em toda a página (ex.: certidão, férias, frequência)" type="search" /></label>
+
+<p class="bx-none">Nenhum conteúdo encontrado. Tente outro termo ou verifique a grafia.</p>
+</div>
+</nav>
+
+<section aria-labelledby="tjpr-estagio-atendimento-titulo" class="sec teal" id="tjpr-estagio-atendimento" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M4 15v-3a8 8 0 0 1 16 0v3"></path><rect height="6" rx="1.5" width="4" x="3" y="13.5"></rect><rect height="6" rx="1.5" width="4" x="17" y="13.5"></rect><path d="M19 19.5v.5a2 2 0 0 1-2 2h-4"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-atendimento-titulo">Atendimento e balcões virtuais</h3>
+
+<p class="intro">Escolha o atendimento de acordo com o assunto.</p>
+<img alt="Ilustração do atendimento pelo balcão virtual do TJPR no Microsoft Teams" class="banner banner-4x1" height="300" src="/documents/d/departamento-administrativo/balcao-virtual-teams-tjpr-dark-png" width="1200" />
+<div class="rows2">
+<div class="r">
+<div>
+<h4>Divisão de Seleção de Estagiários e Residentes, Formação de Talentos e Ambientação</h4>
+<span class="code">SG-SGP-CDHO-DSERFTA</span></div>
+
+<div class="t">
+<p>Consulte também as <a href="#tjpr-estagio-faq">Perguntas Frequentes (FAQ)</a> para esclarecer dúvidas.</p>
+
+<p><strong>Atendimento: das 12h às 18h</strong></p>
+
+<ul class="checks">
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Dúvidas referentes ao Processo seletivo de Estágio</span></li>
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Abertura e andamento dos processos seletivos e protocolos SEI</span></li>
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Solicitações de aproveitamento do PSE de outras unidades</span></li>
+</ul>
+
+<p>Email: <a href="mailto:estagio@tjpr.jus.br">estagio@tjpr.jus.br</a></p>
+
+<p>Telefones: <span class="phones"><a href="tel:+554132285703">(41) 3228-5703</a><span aria-hidden="true" class="sep">|</span><a href="tel:+554132285768">(41) 3228-5768</a><span aria-hidden="true" class="sep">|</span><a href="tel:+554132285920">(41) 3228-5920</a><span aria-hidden="true" class="sep">|</span><a href="tel:+554132285978">(41) 3228-5978</a></span><br />
+ </p>
+
+<div><a class="btn" href="https://tjpr-apps-balcao-virtual.azurefd.net/meeting/DGRH-DE" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2.5" width="14" x="2" y="6"></rect><path d="m16 10.5 5.2-3v9L16 13.5"></path></svg>Acessar balcão virtual ↗</a>
+
+<p class="note-s">Atendimento via chat - Microsoft Teams</p>
+</div>
+</div>
+</div>
+
+<div class="r">
+<div>
+<h4>Vagas, documentação e voluntariado</h4>
+</div>
+
+<div class="t">
+<p>Controle de vagas e protocolos SEI!TJPR. Documentação de estágio e voluntariado.</p>
+
+<p><strong>Atendimento: das 12h às 18h</strong></p>
+
+<ul class="checks">
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Contratação e admissão</span></li>
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Renovação e recontratação</span></li>
+	<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="m5 12.5 4.5 4.5L19 7"></path></svg><span>Férias e rescisão</span></li>
+</ul>
+
+<p>Email: <a href="mailto:estagio@tjpr.jus.br">estagio@tjpr.jus.br</a></p>
+
+<p> </p>
+
+<div><a class="btn" href="https://tjpr-apps-balcao-virtual.azurefd.net/meeting/DocumentacaoeVagasdeEstagioeVoluntariado" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2.5" width="14" x="2" y="6"></rect><path d="m16 10.5 5.2-3v9L16 13.5"></path></svg>Acessar balcão virtual ↗</a>
+
+<p class="note-s">Atendimento via chat - Microsoft Teams</p>
+</div>
+</div>
+</div>
+
+<div class="r">
+<div>
+<h4>Residência jurídica</h4>
+</div>
+
+<div class="t">
+<p>Canal exclusivo para dúvidas referentes à Seção de Residência Jurídica.</p>
+
+<p><strong>Atendimento: das 12h às 18h</strong></p>
+
+<p> </p>
+
+<div><a class="btn" href="https://tjpr-apps-balcao-virtual.azurefd.net/meeting/SGSGPCCPCDERV" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2.5" width="14" x="2" y="6"></rect><path d="m16 10.5 5.2-3v9L16 13.5"></path></svg>Acessar balcão virtual ↗</a>
+
+<p class="note-s">Atendimento via chat - Microsoft Teams</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-etapas-titulo" class="sec navy" id="tjpr-estagio-etapas" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="19" r="2.5"></circle><circle cx="18" cy="5" r="2.5"></circle><path d="M8.5 19H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-etapas-titulo">Etapas do processo seletivo</h3>
+
+<p class="intro">Da solicitação de abertura ao chamamento, estas são as etapas do processo seletivo de estagiários.<br />
+A entrevista e a classificação final em duas fases se aplicam quando previstas no edital.</p>
+
+<ol class="rail">
+	<li class="step">
+	<div>
+	<h4 class="h4">Requerimento para composição do edital de abertura</h4>
+
+	<p class="t">A unidade requisitante inicia um processo no SEI!TJPR, com o tipo <strong>Estágio</strong>, e inclui o documento <strong># Abertura de Processo Seletivo de Estagiários (Formulário)</strong>. O passo a passo está na subseção <a href="#tjpr-estagio-abertura">Como solicitar a abertura</a>.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Publicação do edital de abertura</h4>
+
+	<p class="t">A Divisão de Estágio publica o edital no Diário da Justiça eletrônico (e-DJ) e o disponibiliza no portal do TJPR. Pedidos de alteração do edital, como data, horário ou local da prova, devem ser enviados pelo mesmo processo SEI.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Inscrições dos candidatos</h4>
+
+	<p class="t">Após a publicação do edital, as inscrições ocorrem entre o 3º e o 5º dia, ou no prazo estipulado no formulário de inscrições, por meio de formulário eletrônico disponibilizado no portal do TJPR pelo Departamento de Gestão de Recursos Humanos (DGRH). A Divisão de Estágio envia a relação de inscritos à unidade requisitante pelo processo SEI.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Edital de ensalamento</h4>
+
+	<p class="t">A unidade requisitante informa à Divisão de Estágio, pelo mesmo processo SEI, o local, a data e o horário da prova. A Divisão publica o edital de ensalamento no portal do TJPR.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Elaboração, aplicação e correção da prova escrita</h4>
+
+	<p class="t">A seleção deve conter, no mínimo, uma <strong>prova escrita não identificada</strong> sobre conhecimentos específicos do nível de ensino relacionado ao estágio, assegurando isonomia e impessoalidade. Cabe à unidade requisitante elaborar, aplicar e corrigir a prova. O edital pode prever entrevista dos aprovados, observada a ordem de classificação, conforme o art. 14 do <a href="https://www.tjpr.jus.br/legislacao-atos-normativos/-/atos/documento/4620019" rel="noopener" target="_blank">Decreto Judiciário nº 345/2019 ↗</a> e o <a href="https://atos.cnj.jus.br/atos/detalhar/906" rel="noopener" target="_blank">Enunciado Administrativo CNJ nº 7/2008 ↗</a>.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Edital de classificação da prova escrita</h4>
+
+	<p class="t">Após corrigir a prova, a unidade responsável deve lançar as respectivas notas na <strong>Fábrica de Provas</strong> e comunicar o lançamento à Divisão de Estágio via <strong>SEI!TJPR</strong>, solicitando a confecção e divulgação do edital de classificação da prova escrita. <strong>Se a seleção tiver apenas a prova escrita</strong>, a classificação deve conter listagem geral e listagem específica de pessoas com deficiência (PcD), com ordem, nome, CPF, e-mail, telefone e nota da prova.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Edital de convocação para entrevista, quando prevista</h4>
+
+	<p class="t">Se o edital previr duas fases, a unidade envia à Divisão de Estágio, pelo mesmo processo SEI, a lista de aprovados a convocar. Devem ser chamados, em ordem de classificação, todos os aprovados na prova escrita que estejam dentro do número de vagas e do cadastro de reserva previstos. Por exemplo: uma vaga e dez posições de reserva exigem a convocação dos onze primeiros classificados.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Edital de classificação final, quando houver entrevista</h4>
+
+	<p class="t">Concluídas as entrevistas, a unidade deve lançar na <strong>Fábrica de Provas</strong> as notas da prova escrita e da entrevista. Em seguida, comunica o lançamento à Divisão de Estágio via <strong>SEI!TJPR</strong> e solicita a confecção e divulgação do edital de classificação final do processo seletivo. A nota final corresponde à <strong>média aritmética simples das duas fases</strong>.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Cadastro de reserva</h4>
+
+	<p class="t">Publicado o edital de classificação da prova escrita ou o edital de classificação final, conforme as fases da seleção, a Divisão de Estágio inclui os aprovados e classificados no cadastro de reserva do Sistema Hércules. Esse cadastro permite preencher vagas da unidade durante a validade do processo seletivo.</p>
+	</div>
+	</li>
+	<li class="step">
+	<div>
+	<h4 class="h4">Edital de chamamento</h4>
+
+	<p class="t">Após o cadastro dos aprovados no Sistema Hércules, as unidades são comunicadas e podem iniciar, diretamente nesse sistema, a convocação dos candidatos, respeitada a ordem de classificação. A Divisão de Estágio disponibiliza o edital de chamamento no portal do TJPR. Para a etapa seguinte, consulte a <a href="#tjpr-estagio-documentacao">documentação necessária para a admissão</a>.</p>
+	</div>
+	</li>
+</ol>
+
+<div class="howto" id="tjpr-estagio-abertura">
+<header><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M12 3 3 8h18z"></path><path d="M4 11h16M3 21h18M5.5 11v7M10 11v7M14 11v7M18.5 11v7"></path></svg></span>
+
+<div>
+<h4>Como solicitar a abertura do processo seletivo</h4>
+
+<p>Orientação para as unidades do TJPR.</p>
+</div>
+</header>
+
+<ol class="t">
+	<li>
+	<div>Inicie um processo no SEI!TJPR com o tipo <strong>Estágio</strong>.</div>
+	</li>
+	<li>
+	<div>Preencha os dados pertinentes, ainda que não sejam obrigatórios, e clique em <strong>Salvar</strong>.</div>
+	</li>
+	<li>
+	<div>Clique em <strong>Incluir Documento</strong>.</div>
+	</li>
+	<li>
+	<div>Selecione o tipo <strong># Abertura de Processo Seletivo de Estagiários (Formulário)</strong> e preencha o formulário.
+	<p class="tip"><strong>Se o tipo de documento não aparecer,</strong>&nbsp;clique em <strong>Exibir todos os tipos</strong> (botão verde com o símbolo “+”).</p>
+	</div>
+	</li>
+</ol>
+
+<p class="t">Após preencher o formulário, encaminhe o processo SEI para <strong>SG-SGP-CDHO-DSERFTA</strong>, para análise.</p>
+
+<p class="t"> </p>
+
+<p class="t">Em caso de dúvida, consulte os <a href="#tjpr-estagio-atendimento">canais de atendimento</a>.</p>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-documentacao-titulo" class="sec gold" id="tjpr-estagio-documentacao" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m9 13.5 2 2 4-4"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-documentacao-titulo">Documentação para admissão de estagiários</h3>
+
+<div style="height:10px"> </div>
+
+<div class="strip">
+<div>
+<h4 class="h4" style="margin:0 0 2px">Contato por email</h4>
+
+<p class="mut" style="font-size:14px;line-height:1.6">Contratação e admissão, renovação e recontratação, férias e rescisão.</p>
+</div>
+<a class="pill" href="mailto:estagio@tjpr.jus.br"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg>estagio@tjpr.jus.br</a></div>
+
+<details class="docs" open=""><summary><svg aria-hidden="true" fill="none" focusable="false" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m9 13.5 2 2 4-4"></path></svg><b>Documentos necessários para a admissão <small>— clique para expandir / recolher</small></b><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="docs-b">
+<p class="t" style="margin:0 0 8px;color:#3f5968">Documentos necessários para a admissão de estudantes aprovados no <strong>Processo Seletivo de Estágio</strong>. Observe as condições específicas de cada item.</p>
+
+<ol class="doclist">
+	<li class="doc">
+	<div>
+	<h5>RG e Comprovante do CPF</h5>
+
+	<div class="t">
+	<div class="notice anexo"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m20.5 11.5-8.3 8.3a5 5 0 0 1-7.1-7.1l8.8-8.8a3.4 3.4 0 0 1 4.8 4.8l-8.5 8.5a1.7 1.7 0 0 1-2.4-2.4L15.5 7"></path></svg>
+
+	<div><strong>Ao anexar</strong>Digitalize o RG (ou outro documento de identificação) e o Comprovante de Situação Cadastral do CPF e anexe os dois em um único arquivo, no mesmo campo.</div>
+	</div>
+
+	<div class="subdoc">
+	<h6><span>1.1</span>Documento de Registro Geral (RG)</h6>
+
+	<p>Cédula de identidade emitida pela Secretaria de Estado e Segurança Pública (SESP).</p>
+
+	<div class="notice lei"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M7.5 21h9M4 7h16"></path><path d="M12 5 4 7m8-2 8 2"></path><path d="m4 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path><path d="m20 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path></svg>
+
+	<div><strong>Outros documentos de identificação</strong>
+
+	<p class="lei-q"><b>3.1.</b> Questiona-se a possibilidade de se apresentar outros documentos comprobatórios de identificação, além do RG.</p>
+
+	<p><b>Resposta:</b> A <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm" rel="noopener" target="_blank">Lei Federal nº 12.037/2009 ↗</a> assim estabelece em seu artigo 2º:</p>
+
+	<blockquote class="cit">
+	<p>Art. 2º A identificação civil é atestada por qualquer dos seguintes documentos:</p>
+
+	<ul class="incisos">
+		<li>I – carteira de identidade;</li>
+		<li>II – carteira de trabalho;</li>
+		<li>III – carteira profissional;</li>
+		<li>IV – passaporte;</li>
+		<li>V – carteira de identificação funcional;</li>
+		<li>VI – outro documento público que permita a identificação do indiciado.</li>
+	</ul>
+
+	<p>Parágrafo único. Para as finalidades desta Lei, equiparam-se aos documentos de identificação civis os documentos de identificação militares.</p>
+	</blockquote>
+
+	<p>A <a href="http://www.planalto.gov.br/ccivil_03/leis/l6206.htm" rel="noopener" target="_blank">Lei Federal nº 6.206/1975 ↗</a>, por seu turno, assim estabelece em seu artigo 1º:</p>
+
+	<blockquote class="cit">
+	<p>Art 1º É válida em todo o Território Nacional como prova de identidade, para qualquer efeito, a carteira emitida pelos órgãos criados por lei federal, controladores do exercício profissional.</p>
+	</blockquote>
+
+	<p class="lei-c">Desta forma, entende-se que podem ser apresentados os documentos previstos na legislação pertinente (supratranscrita), para fins de identificação civil.</p>
+	</div>
+	</div>
+	</div>
+
+	<div class="subdoc">
+	<h6><span>1.2</span>Comprovante de Situação Cadastral do CPF</h6>
+	<span class="badge prazo"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Emitido no máximo há 30 dias</span>
+
+	<p>Fornecido pela Secretaria da Receita Federal do Brasil (RFB), emitir no link abaixo. O Comprovante de Situação Cadastral do CPF deve estar com o nome atualizado. Caso precise atualizá-lo na Receita Federal, <a href="https://www.receita.fazenda.gov.br/Aplicacoes/SSL/ATCTA/CPF/ConsultaSituacao/ConsultaPublica.asp" rel="noopener" target="_blank">clique aqui ↗</a>.</p>
+
+	<ul class="links">
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.receita.fazenda.gov.br/Aplicacoes/SSL/ATCTA/CPF/ConsultaSituacao/ConsultaPublica.asp" rel="noopener" target="_blank">Emitir comprovante do CPF ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="http://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-de-pessoas-fisicas-cpf/atos-cadastrais/alteracao-de-dados-cadastrais-no-cpf" rel="noopener" target="_blank">Orientações para atualizar os dados do CPF ↗</a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Comprovante de endereço residencial</h5>
+	<span class="badge prazo"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Emitido no máximo há 30 dias</span>
+
+	<div class="t">
+	<p>Pode ser uma fatura, não o envelope, em nome do estudante, de um de seus genitores ou de cônjuge/companheiro(a), desde que comprovada a relação. Se não houver comprovante atualizado, apresente uma <strong>Declaração de Residência</strong> com assinatura manuscrita ou digital.</p>
+
+	<ul class="links">
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.tjpr.jus.br/documents/32415/824101/Declara%C3%A7%C3%A3o+de+Endere%C3%A7o+Residencial/1e9d3516-8dff-0a89-5949-727f048b9e0b" rel="noopener" target="_blank">Modelo de Declaração de Residência ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.tjpr.jus.br/documents/32415/824101/Orienta%C3%A7%C3%A3o+Assinatura+Digital+Windows/52bed3ff-8372-888d-63be-8c29e426ab1e" rel="noopener" target="_blank">Orientações de assinatura digital ↗</a></li>
+	</ul>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Declaração de matrícula atualizada</h5>
+	<span class="badge prazo"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Emitida no máximo há 30 dias</span>
+
+	<div class="t">
+	<p>Emitida pela instituição de ensino. Pode ser solicitada eletronicamente para a instituição, desde que o documento digital seja fornecido com código de validação ou assinatura digital — algumas instituições não aceitam apenas assinatura digital —, ou conter assinatura manuscrita e carimbo de quem a emitiu.</p>
+
+	<div class="notice alert"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path><path d="M12 9v4.5"></path><path d="M12 17.2h.01"></path></svg>
+
+	<div><strong>IMPORTANTE</strong>A declaração de matrícula deverá obrigatoriamente conter curso em que está matriculado(a), nome da instituição de ensino, turno, período e, para cursos de pós-graduação, data prevista de início e término das aulas.</div>
+	</div>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Declarações e Termo de Ciência</h5>
+
+	<div class="t">
+	<p>Apresente os três documentos: <strong>Declaração de Nepotismo, declaração de outros Impedimentos e Termo de Ciência</strong>. Todos os campos devem estar preenchidos e assinalados. O Termo de Ciência possui <strong>cinco opções</strong>, que devem ser lidas e assinaladas.</p>
+
+	<ul class="links">
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.tjpr.jus.br/documents/32415/824101/Declara%C3%A7%C3%B5es+de+Nepotismo+e+Impedimentos+e+Termo+de+Ci%C3%AAncia/f2884a01-cfec-fc8f-08c3-8b8a4437c764" rel="noopener" target="_blank">Modelo para preenchimento e assinatura manuscritos ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.tjpr.jus.br/documents/32415/824101/Declara%C3%A7%C3%B5es+Nepotismo%2C+impedimentos+e+Ci%C3%AAncia+com+assinatura+digital/07b7aae6-c365-6dd9-137c-fbd118eccad0" rel="noopener" target="_blank">Modelo para preenchimento e assinatura digitais ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://www.tjpr.jus.br/documents/32415/824101/Orienta%C3%A7%C3%A3o+Assinatura+Digital+Windows/52bed3ff-8372-888d-63be-8c29e426ab1e" rel="noopener" target="_blank">Orientações de assinatura digital ↗</a></li>
+	</ul>
+
+	<div class="notice alert"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path><path d="M12 9v4.5"></path><path d="M12 17.2h.01"></path></svg>
+
+	<div><strong>IMPORTANTE</strong>Os 3 documentos devem ser COMPLETAMENTE preenchidos pelo estudante, sendo que o <u>Termo de Ciência possui 5 opções a serem lidas e assinaladas.</u></div>
+	</div>
+
+	<div class="notice "><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m20.5 11.5-8.3 8.3a5 5 0 0 1-7.1-7.1l8.8-8.8a3.4 3.4 0 0 1 4.8 4.8l-8.5 8.5a1.7 1.7 0 0 1-2.4-2.4L15.5 7"></path></svg>
+
+	<div><strong>Ao anexar</strong>Digitalize os três documentos completamente preenchidos e anexe-os no mesmo campo.</div>
+	</div>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Certidões de Antecedentes Criminais</h5>
+	<span class="badge prazo"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Emitidas há no máximo 30 dias</span>
+
+	<div class="t">
+	<p>Emitidas pelos <strong>Ofícios Distribuidores do domicílio</strong>. Considere tanto o município de residência quanto o município em que serão prestadas as atividades de estágio. <a href="https://www.tjpr.jus.br/endereco-de-orgaos-do-judiciario" rel="noopener" target="_blank">Consultar endereços dos órgãos do Judiciário ↗</a>.</p>
+
+	<p>Para quem reside em Curitiba ou realizará estágio em unidades do Poder Judiciário em Curitiba, as certidões de antecedentes criminais poderão ser requeridas pelos seguintes links:</p>
+
+	<ul class="links">
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="http://www.1distribuidorcuritiba.com.br/" rel="noopener" target="_blank">1º Ofício do Distribuidor ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="http://www.2distribuidorcuritiba.com.br/default/" rel="noopener" target="_blank">2º Ofício do Distribuidor ↗</a></li>
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="https://3distrib.com.br/" rel="noopener" target="_blank">3º Ofício Distribuidor ↗</a></li>
+	</ul>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Título de Eleitor</h5>
+
+	<div class="t">
+	<p>Em caso de divergência de <strong>zona ou seção eleitoral</strong>, anexe também a certidão emitida por Tribunal Eleitoral.</p>
+
+	<ul class="links">
+		<li><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg><a href="http://www.tse.jus.br/eleitor/certidoes/certidao-de-quitacao-eleitoral" rel="noopener" target="_blank">Emitir certidão eleitoral ↗</a></li>
+	</ul>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Registro de Alistamento Militar</h5>
+	<span class="badge cond"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg>Quando aplicável</span>
+
+	<div class="t">
+	<p>Somente para estudantes masculinos, <strong>acima de 19 anos completos</strong>, conforme o documento de referência.</p>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Comprovante de estado civil</h5>
+	<span class="badge cond"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg>Quando aplicável</span>
+
+	<div class="t">
+	<p>Apresentar se o estudante for <strong>casado(a), separado(a) ou estiver em união estável</strong>.</p>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Documentos adicionais para pós-graduação</h5>
+	<span class="badge pos"><svg aria-hidden="true" fill="none" focusable="false" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.5 12 5 2 9.5l10 4.5z"></path><path d="M6 11.3V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.7"></path><path d="M22 9.5V15"></path></svg>Somente pós-graduação</span>
+
+	<div class="t">
+	<div class="subdoc">
+	<h6><span>9.1</span>Formação superior</h6>
+
+	<p>Diploma do curso superior, <strong>frente e verso</strong>, ou certificado de conclusão acompanhado do histórico escolar.</p>
+	</div>
+
+	<div class="subdoc">
+	<h6><span>9.2</span>Órgão de classe</h6>
+
+	<p>Licenciamento do órgão de classe ou pedido protocolizado na OAB, para formados em Direito.</p>
+
+	<div class="notice "><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg>
+
+	<div><strong>Caso não possua registro na OAB</strong>Utilize e anexe o documento disponibilizado no item 4.</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</li>
+	<li class="doc">
+	<div>
+	<h5>Fotografia para o crachá</h5>
+
+	<div class="t">
+	<p>Fotografia <strong>colorida, atualizada e sem data</strong>, em arquivo de imagem, para confecção do crachá de identificação. Siga as <a href="https://www.tjpr.jus.br/widget/group/guest/avisos-funcionais/-/asset_publisher/c2We/content/como-fazer-uma-boa-foto-pessoal-para-o-sistema-hercules/14681" rel="noopener" target="_blank">recomendações para a fotografia ↗</a>.</p>
+	</div>
+	</div>
+	</li>
+</ol>
+
+<div class="t">
+<div class="notice alert"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.9 2h8.2L22 7.9v8.2L16.1 22H7.9L2 16.1V7.9z"></path><path d="M12 7.5v5.5"></path><path d="M12 16.5h.01"></path></svg>
+
+<div><strong>IMPORTANTE</strong>Destacamos que o estudante não deverá iniciar o estágio enquanto não tiver seu Termo de Compromisso de Estágio homologado, cabendo à chefia e/ou ao supervisor de estágio não permitir o início antes da formalização da admissão (homologação do termo), sob pena de responsabilidade, uma vez que o período eventualmente estagiado não acarretará em pagamento de bolsa-auxílio e auxílio-transporte.</div>
+</div>
+</div>
+</div>
+</details>
+</section>
+
+<section aria-labelledby="tjpr-estagio-aproveitamento-titulo" class="sec mint" id="tjpr-estagio-aproveitamento" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M7 4 3 8l4 4"></path><path d="M3 8h14"></path><path d="m17 20 4-4-4-4"></path><path d="M21 16H7"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-aproveitamento-titulo">Aproveitamento de processo seletivo</h3>
+
+<p class="intro strong">O processo seletivo realizado por uma unidade pode ser aproveitado por outra, desde que seja respeitada a ordem de classificação e haja <strong>autorização formal e nominal</strong> da unidade que realizou a seleção. Não cabe reclassificação por nova entrevista nem por outra forma de nova seleção.</p>
+
+<div class="action"><span aria-hidden="true"><svg aria-hidden="true" fill="none" focusable="false" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.8-3.8"></path></svg></span>
+
+<div>
+<h4>Consultar Processos Seletivos disponíveis para aproveitamento</h4>
+
+<p>Veja os certames atuais que podem ser aproveitados por outras unidades e os candidatos classificados.</p>
+<a href="https://publico.bi.tjpr.jus.br/extensions/appAdmissaoEstagiario/appAdmissaoEstagiario.html" rel="noopener" target="_blank">Abrir consulta de processos seletivos ↗</a></div>
+</div>
+
+<h4 class="h4">Como solicitar o aproveitamento de Processo Seletivo:</h4>
+
+<div class="t">
+<p>Encontrado um processo seletivo de interesse, a unidade pode seguir uma destas opções:</p>
+
+<ul style="margin:10px 0 0;padding-left:22px;list-style:disc">
+	<li>Solicitar à unidade que realizou a seleção que registre, <strong>no próprio processo SEI</strong>, a autorização formal e nominal para o aproveitamento e o encaminhe à <strong>SG-SGP-CDHO-DSERFTA; ou</strong></li>
+	<li>Abrir um <strong>novo processo SEI</strong> e encaminhá-lo à <strong>SG-SGP-CDHO-DSERFTA</strong>, requerendo o aproveitamento do processo seletivo realizado por outra unidade. A autorização da unidade de origem continua necessária.</li>
+</ul>
+</div>
+
+<div class="notice warn" role="note" style="margin-top:22px"><svg aria-hidden="true" fill="none" focusable="false" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path><path d="M12 9v4.5"></path><path d="M12 17.2h.01"></path></svg>
+
+<div class="t">
+<p class="lbl">Atenção!</p>
+
+<h4 class="h4" style="margin:0 0 6px">Antes de pedir o aproveitamento, solicite a desvinculação da sua unidade de outros processos seletivos vigentes.</h4>
+
+<p>Se a unidade já estiver vinculada a outro(s) processo(s) seletivo(s) cujo aproveitamento requereu anteriormente, deve encaminhar antes um requerimento pelo SEI!TJPR à <strong>SG-SGP-CDHO-DSERFTA</strong>, solicitando a desvinculação desses processos.</p>
+
+<p>Caso a unidade ainda esteja vinculada a outro processo seletivo anterior em vigência, o sistema Hércules não mostrará os candidatos do novo aproveitamento efetuado no sistema.</p>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-pagamento-titulo" class="sec teal" id="tjpr-estagio-pagamento" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M20 7V5.5A1.5 1.5 0 0 0 18.5 4H5a2 2 0 0 0 0 4h14.5A1.5 1.5 0 0 1 21 9.5V12"></path><path d="M3 6v12a2 2 0 0 0 2 2h14.5a1.5 1.5 0 0 0 1.5-1.5V16"></path><path d="M21 12h-4a2 2 0 0 0 0 4h4z"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-pagamento-titulo">Pagamento e frequência</h3>
+
+<p class="intro">Contatos para bolsa, auxílios e registro de frequência.</p>
+
+<div class="rows2">
+<div class="r">
+<h4>Folha de pagamento</h4>
+
+<div class="t">
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg><span><a href="mailto:folha.bolsistas@tjpr.jus.br">folha.bolsistas@tjpr.jus.br</a></span></p>
+
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 7.1 7.1l1.4-2.3L21 15.5V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"></path></svg><span><span class="phones"><a href="tel:+554132285911">(41) 3228-5911</a><span aria-hidden="true" class="sep">|</span><a href="tel:+554132285839">(41) 3228-5839</a><span aria-hidden="true" class="sep">|</span><a href="tel:+554132285725">(41) 3228-5725</a></span></span></p>
+
+<p style="margin:12px 0 6px">Para requerimento de certidões relativas aos valores pagos de bolsa-auxílio e auxílio-transporte, encaminhar e-mail para:</p>
+
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg><span><a href="mailto:dcfp@tjpr.jus.br">dcfp@tjpr.jus.br</a></span></p>
+</div>
+</div>
+
+<div class="r">
+<h4>Boletins de frequência e de acerto</h4>
+
+<div class="t">
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 7.1 7.1l1.4-2.3L21 15.5V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"></path></svg><span><span class="phones"><a href="tel:+554132285925">(41) 3228-5925</a></span></span></p>
+
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 9h14M5 15h14M10 4 8 20M16 4l-2 16"></path></svg><span>Unidade SEI: <strong>SG-SGP-CPB-DCF</strong></span></p>
+<a class="btn" href="https://teams.microsoft.com/l/chat/0/0?users=ehm@tjpr.jus.br" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"></path><path d="M8 10h8M8 13h5"></path></svg>Falar com o Controle de Frequência ↗</a></div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-certidoes-titulo" class="sec navy" id="tjpr-estagio-certidoes" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="m9 14 2 2 4-4"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-certidoes-titulo">Certidões e ofícios</h3>
+
+<p class="intro">Canais específicos para solicitar documentos.</p>
+
+<div class="rows2">
+<div class="r">
+<h4>Certidão de horas</h4>
+
+<div class="t">
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg><span><a href="mailto:certidoesfuncionais@tjpr.jus.br">certidoesfuncionais@tjpr.jus.br</a></span></p>
+</div>
+</div>
+
+<div class="r">
+<h4>Ofícios de rescisão</h4>
+
+<div class="t">
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg><span><a href="mailto:estagio@tjpr.jus.br">estagio@tjpr.jus.br</a></span></p>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-sistemas-titulo" class="sec gold" id="tjpr-estagio-sistemas" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2" width="18" x="3" y="4"></rect><path d="M8 20h8M12 16v4"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-sistemas-titulo">Acesso à rede e aos sistemas</h3>
+
+<p class="intro">Para solicitar os acessos dos estagiários recém-contratados aos sistemas informatizados do Tribunal de Justiça, o responsável pela unidade deve fazer a solicitação via SIGA ou entrar em contato com o Suporte de informática por telefone. Utilizar contatos/links abaixo:</p>
+
+<div class="rows2">
+<div class="r">
+<h4>Suporte de informática</h4>
+
+<div class="t">
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 7.1 7.1l1.4-2.3L21 15.5V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"></path></svg><span><span class="phones"><a href="tel:+554132004000">(41) 3200-4000</a></span></span></p>
+<a class="btn" href="https://siga.tjpr.jus.br/" rel="noopener" target="_blank"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2" width="18" x="3" y="4"></rect><path d="M8 20h8M12 16v4"></path></svg>Abrir chamado no SIGA ↗</a></div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-instituicoes-titulo" class="sec mint" id="tjpr-estagio-instituicoes" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.5 12 5 2 9.5l10 4.5z"></path><path d="M6 11.3V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.7"></path><path d="M22 9.5V15"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-instituicoes-titulo">Instituições de ensino</h3>
+
+<p class="intro">Cadastro de instituições para participação de seus alunos no programa.</p>
+
+<div class="rows2">
+<div class="r">
+<h4>Atendimento às instituições</h4>
+
+<div class="t">
+<p style="margin:0 0 10px">Se você é responsável administrativamente por uma instituição de ensino e deseja cadastrá-la no banco de dados do TJPR, entre em contato:</p>
+
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m3.5 7 8.5 6 8.5-6"></path></svg><span><a href="mailto:estagio@tjpr.jus.br">estagio@tjpr.jus.br</a></span></p>
+
+<p class="line"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 7.1 7.1l1.4-2.3L21 15.5V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"></path></svg><span><span class="phones"><a href="tel:+554132285703">(41) 3228-5703</a></span></span></p>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-orientacoes-titulo" class="sec teal" id="tjpr-estagio-orientacoes" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H9a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V6z"></path><path d="M16 2v4h4"></path><path d="M4 7v12a2 2 0 0 0 2 2h9"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-orientacoes-titulo">Modelos, orientações e materiais</h3>
+
+<p class="intro">Orientações para estudantes e unidades, cartilha de seleção e documentos para registrar situações do procedimento de admissão.</p>
+
+<div class="rows2">
+<div class="r">
+<h4>Orientações e seleção por competências</h4>
+
+<div class="t">
+<p class="matl"><svg aria-hidden="true" fill="none" focusable="false" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M12 11v6m-2.5-2.5L12 17l2.5-2.5"></path></svg><a href="http://www.tjpr.jus.br/documents/portlet_file_entry/14681/Cartilha_Selecao_de_Estagiarios_e_Estagiarias_por+Competencias.pdf.pdf/02a265e0-ee59-3d05-d1dd-90713de3cec6?status=0&amp;download=true" rel="noopener" target="_blank">Cartilha de Seleção de Estagiários e Estagiárias por Competências (PDF) ↗</a></p>
+
+<p class="matl"><svg aria-hidden="true" fill="none" focusable="false" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg"><rect height="11" rx="3" width="16" x="4" y="8"></rect><path d="M12 4v4M9 13h.01M15 13h.01M9.5 16h5"></path><circle cx="12" cy="3.5" r=".5"></circle></svg><a href="https://estagiaria.ai.studio/" rel="noopener" target="_blank">Robô tira-dúvidas sobre estágio ↗</a></p>
+
+<p class="matl"><svg aria-hidden="true" fill="none" focusable="false" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.1A8.5 8.5 0 1 1 21 12z"></path><path d="M9.8 9.6a2.3 2.3 0 1 1 3.2 2.1c-.6.3-1 .8-1 1.4v.3"></path><path d="M12 16.3h.01"></path></svg><a href="#tjpr-estagio-faq">Perguntas frequentes (FAQ)</a></p>
+</div>
+</div>
+
+<div class="r full">
+<div>
+<h4>Termos e declarações</h4>
+
+<p class="mut" style="font-size:13px;line-height:1.6">Encontre o documento conforme seu papel no processo seletivo.</p>
+</div>
+</div>
+
+<div class="r">
+<h4 class="navy"><span class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M12 3 3 8h18z"></path><path d="M4 11h16M3 21h18M5.5 11v7M10 11v7M14 11v7M18.5 11v7"></path></svg></span>Para unidades e chefias</h4>
+
+<div class="t">
+<div class="termo">
+<p><a href="https://www.tjpr.jus.br/documents/d/departamento-administrativo/declaracao-contato-candidato-infrutifero" rel="noopener" target="_blank">Declaração de contato infrutífero ↗</a></p>
+
+<p>Se o candidato não responder em cinco dias úteis porque o e-mail ou telefone informado está desatualizado, incorreto ou incompleto, registre a tentativa de contato neste modelo. Preencha, assine e anexe a declaração ao procedimento de admissão no Sistema Hércules.</p>
+</div>
+
+<div class="termo">
+<p><a href="https://www.tjpr.jus.br/documents/32415/13313299/DECLARA%C3%87%C3%83O+CONTATO+INFORMA%C3%87%C3%83O+VERBAL/38f7183d-7e92-b329-8b40-84d016355ff9" rel="noopener" target="_blank">Declaração de desistência — contato verbal com o candidato ↗</a></p>
+
+<p>Se o candidato comunicar por telefone que desistiu da vaga, registre a manifestação neste modelo. Preencha, assine e anexe a declaração ao procedimento de admissão no Sistema Hércules.</p>
+</div>
+</div>
+</div>
+
+<div class="r">
+<h4 class="teal"><span class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg></span>Para candidatos</h4>
+
+<div class="t">
+<div class="termo">
+<p><a href="http://www.tjpr.jus.br/documents/32415/8529204/TERMO+DE+DESIST%C3%8ANCIA+FORMAL+PELO+CLASSIFICADO/8b06e4b8-0a3a-a4fb-1a48-9764a8558cec" rel="noopener" target="_blank">Termo de desistência formal ↗</a></p>
+
+<p>Se você deseja desistir formalmente, preencha e assine o termo. Entregue-o à unidade para anexação ao procedimento de admissão no Sistema Hércules.</p>
+</div>
+
+<div class="termo">
+<p><a href="http://www.tjpr.jus.br/documents/32415/0/TERMO+DE+OP%C3%87%C3%83O+-+FINAL+DE+LISTA.docx/9d2d0be4-26c1-4489-8bd5-974ca7c92b0f" rel="noopener" target="_blank">Termo de opção por constar em final de lista ↗</a></p>
+
+<p>Se você deseja constar no final da lista de classificação, preencha e assine o termo. Entregue-o à unidade para anexação ao procedimento de admissão no Sistema Hércules.</p>
+</div>
+
+<div class="termo">
+<p><a href="http://www.tjpr.jus.br/documents/32415/0/TERMO+DE+OP%C3%87%C3%83O+-+RECUSA+ADMISS%C3%83O+COMARCA+DIVERSA.docx/82a38de2-908c-66ac-c465-7c3b4b804966" rel="noopener" target="_blank">Termo de opção por recusar a admissão em comarca diversa ↗</a></p>
+
+<p>Se você recusa a admissão em comarca diversa daquela de origem do processo seletivo, preencha e assine o termo. Entregue-o à unidade para anexação ao procedimento de admissão no Sistema Hércules.</p>
+</div>
+
+<div class="termo">
+<p><a href="https://www.gov.br/pgfn/pt-br/assuntos/programa-de-estagio/abertura-de-selecao-e-resultados/2024/autodeclaracao-racial-1.docx/view" rel="noopener" target="_blank">Autodeclaração racial ↗</a></p>
+
+<p>Se você se autodeclara preto, pardo ou indígena, utilize este modelo. Consulte também o <a href="https://www2.senado.leg.br/bdsf/bitstream/handle/id/642501/Manual_quesito_cor_raca_etnia_SF.pdf?sequence=1&amp;isAllowed=y" rel="noopener" target="_blank">Manual Quesito Cor/Raça e Etnia do Senado Federal ↗</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-programa-titulo" class="sec navy" id="tjpr-estagio-programa" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-programa-titulo">Sobre o programa de estágio</h3>
+
+<div style="height:10px"> </div>
+<img alt="Ilustração de um crachá de identificação com foto e nome, representando o estágio no TJPR" class="banner" height="400" src="/documents/d/departamento-administrativo/estagio-tjpr-ilustra-png" width="1200" />
+<div class="rows2">
+<div class="r">
+<h4>O que é o estágio</h4>
+
+<div class="t">
+<p>O estágio de estudantes é o ato educativo escolar supervisionado, desenvolvido no ambiente de trabalho, que visa à preparação para o trabalho produtivo de educandos que estejam frequentando o ensino regular em instituições de educação superior, de educação profissional, de ensino médio, da educação especial e dos anos finais do ensino fundamental, na modalidade profissional da educação de jovens e adultos.</p>
+
+<p>Faz parte do projeto pedagógico do curso, além de integrar o itinerário formativo do educando, e visa ao aprendizado de competências próprias da atividade profissional e à contextualização curricular, objetivando o desenvolvimento do educando para a vida cidadã e para o trabalho.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-legislacao-titulo" class="sec gold" id="tjpr-estagio-legislacao" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M7.5 21h9M4 7h16"></path><path d="M12 5 4 7m8-2 8 2"></path><path d="m4 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path><path d="m20 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-legislacao-titulo">Legislação</h3>
+
+<p class="intro strong">O processo seletivo de estudantes é o método de recrutamento e seleção para as atividades de estágio obrigatório e não obrigatório no Tribunal de Justiça do Estado do Paraná, conforme o Decreto Judiciário nº 345/2019.</p>
+
+<div class="laws">
+<div>
+<h4 class="h4">Normas e anexos</h4>
+
+<ul>
+	<li><span class="tag">Decreto</span>
+
+	<div><a href="https://www.tjpr.jus.br/legislacao-atos-normativos/-/atos/documento/4620019" rel="noopener" target="_blank">Decreto Judiciário nº 345/2019 ↗</a><small>Regulamenta o Programa de Estágios no Poder Judiciário do Estado do Paraná.</small></div>
+	</li>
+	<li><span class="tag">Decreto</span>
+	<div><a href="https://www.tjpr.jus.br/legislacao-atos-normativos/-/atos/documento/4743807" rel="noopener" target="_blank">Decreto Judiciário nº 410/2025 ↗</a><small>Dispõe sobre o Programa de Residência Jurídica</small></div>
+	</li>
+	<li><span class="tag">Decreto</span>
+	<div><a href="https://www.tjpr.jus.br/legislacao-atos-normativos/-/atos/documento/4684800" rel="noopener" target="_blank">Decreto Judiciário nº 900/2017 ↗</a><small>Dispõe sobre a Prestação do Serviço Voluntário/Voluntariado.</small></div>
+	</li>
+	<li><span class="tag">Decreto</span>
+	<div><a href="http://www.tjpr.jus.br/documents/32415/b3a11bb7-01a3-48db-8042-052b73dce4ab" rel="noopener" target="_blank">Decreto Judiciário nº 2.324/2013 ↗</a><small>Dispõe sobre a lotação para fins de registro funcional e o controle eletrônico de frequência de servidores e estagiários do Tribunal de Justiça.</small></div>
+	</li>
+	<li><span class="tag">Lei</span>
+	<div><a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm" rel="noopener" target="_blank">Lei Federal nº 11.788/2008 ↗</a><small>Dispõe sobre o estágio de estudantes.</small></div>
+	</li>
+	<li><span class="tag">Resolução</span>
+	<div><a href="https://atos.cnj.jus.br/files/resolucao_comp_7_18102005_26032019134311.pdf" rel="noopener" target="_blank">Resolução CNJ nº 7/2005 ↗</a></div>
+	</li>
+	<li><span class="tag">Enunciado</span>
+	<div><a href="https://atos.cnj.jus.br/atos/detalhar/906" rel="noopener" target="_blank">Enunciado Administrativo CNJ nº 7/2008 ↗</a></div>
+	</li>
+</ul>
+</div>
+
+<div>
+<h4 class="h4">Documentos de referência</h4>
+
+<ul>
+	<li><span class="tag ref">Correição</span>
+
+	<div><a href="https://www.tjpr.jus.br/documents/32415/0/Auto+Circunstanciado+de+Correi%C3%A7%C3%A3o+Justi%C3%A7a+Estadual+do+Paran%C3%A1+%28Pgs+07+e+08%29/345a7129-217e-4da7-af40-54fb96422870" rel="noopener" target="_blank">Auto Circunstanciado de Correição — Justiça Estadual do Paraná ↗</a><small>Páginas 7 e 8.</small></div>
+	</li>
+	<li><span class="tag ref">Manual</span>
+	<div><a href="https://www2.senado.leg.br/bdsf/bitstream/handle/id/642501/Manual_quesito_cor_raca_etnia_SF.pdf?sequence=1&amp;isAllowed=y" rel="noopener" target="_blank">Manual Quesito Cor/Raça e Etnia do Senado Federal ↗</a></div>
+	</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="tjpr-estagio-faq-titulo" class="sec mint" id="tjpr-estagio-faq" tabindex="-1">
+<div aria-hidden="true" class="badge-ico"><span><svg aria-hidden="true" fill="none" focusable="false" height="23" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.1A8.5 8.5 0 1 1 21 12z"></path><path d="M9.8 9.6a2.3 2.3 0 1 1 3.2 2.1c-.6.3-1 .8-1 1.4v.3"></path><path d="M12 16.3h.01"></path></svg></span></div>
+
+<h3 id="tjpr-estagio-faq-titulo">Perguntas Frequentes (FAQ)</h3>
+
+<p class="intro">Selecione uma pergunta para consultar a resposta.</p>
+
+<div class="faq">
+<details><summary><i>01</i><span>O que é <strong>estágio</strong>?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Estágio é ato educativo escolar supervisionado, desenvolvido no ambiente de trabalho, que visa à preparação para o trabalho produtivo de educandos que estejam frequentando o ensino regular em instituições de educação superior, de educação profissional, de ensino médio, da educação especial e dos anos finais do ensino fundamental, na modalidade profissional da educação de jovens e adultos (Lei Federal nº 11.788/2008, art. 1º, caput).</p>
+
+<p>O estágio faz parte do projeto pedagógico do curso, além de integrar o itinerário formativo do educando e visa ao aprendizado de competências próprias da atividade profissional e à contextualização curricular, objetivando o desenvolvimento do educando para a vida cidadã e para o trabalho (Lei Federal nº 11.788/2008, art. 1º, §§ 1º e 2º).</p>
+
+<p>O estágio poderá ser obrigatório ou não obrigatório, conforme determinação das diretrizes curriculares da etapa, modalidade e área de ensino e do projeto pedagógico do curso (Lei Federal nº 11.788/2008, art. 2º, caput).</p>
+
+<p>Estágio obrigatório é aquele definido como tal no projeto do curso, cuja carga horária é requisito para aprovação e obtenção de diploma (Lei Federal nº 11.788/2008, art. 2º, § 1º).</p>
+
+<p>Estágio não obrigatório é aquele desenvolvido como atividade opcional, acrescida à carga horária regular e obrigatória (Lei Federal nº 11.788/2008, art. 2º, § 2º).</p>
+</div>
+</details>
+
+<details><summary><i>02</i><span>Como são <strong>escolhidos os estagiários</strong> do Poder Judiciário do Estado do Paraná? Quem pode concorrer às vagas de estágio? Como é realizado o recrutamento e a seleção de estudantes?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Os estagiários do Poder Judiciário do Estado do Paraná serão escolhidos mediante procedimento seletivo, convocado por edital público (Decreto Judiciário nº 345/2019, art. 1º).</p>
+
+<p>Podem concorrer às vagas de estágio estudantes regularmente matriculados e com frequência efetiva nos cursos de educação profissional, de ensino médio, de educação especial, bem como em curso superior, incluindo a graduação e a pós-graduação (lato e stricto sensu). Poderá ser admitido o estudante matriculado em curso à distância, desde que a instituição de ensino a que esteja vinculado seja credenciada junto ao Ministério da Educação (Decreto Judiciário nº 345/2019, caput e parágrafo único).</p>
+
+<p>As unidades judiciais ou administrativas que possuam vaga de estágio poderão realizar procedimento seletivo próprio, observadas as regras do Decreto Judiciário nº 345/2019 (art. 11). O edital de abertura do procedimento seletivo será publicado no Diário da Justiça Eletrônico (e-DJ) e divulgado pelo prazo mínimo de cinco dias no site do TJPR, devendo constar (Decreto Judiciário nº 345/2019, art. 12):</p>
+
+<ul>
+	<li>Os requisitos para o estágio e para a vaga ofertada, em relação ao nível de ensino e à modalidade de educação, bem como à área de conhecimento, à modalidade e à periodicidade do curso;</li>
+	<li>Local, horário e período das inscrições;</li>
+	<li>A modalidade do estágio (obrigatório ou não obrigatório);</li>
+	<li>A quantidade de vagas ofertadas, conforme o quadro de distribuição, e para a formação do cadastro de reserva;</li>
+	<li>O conteúdo programático exigido no processo seletivo, bem como o respectivo número de questões em cada prova;</li>
+	<li>Os tipos de provas (objetivas, discursivas e/ou práticas) da etapa eliminatória e classificatória do processo seletivo, bem como o respectivo número de questões em cada prova;</li>
+	<li>A quantidade de candidatos classificados que serão convocados para cada prova da etapa eliminatória e classificatória;</li>
+	<li>Se há previsão de entrevista com os candidatos classificados;</li>
+	<li>O prazo de validade do processo seletivo, que será de até um ano, a contar da publicação do Edital de Classificação Final no Diário da Justiça Eletrônico (e-DJ).</li>
+</ul>
+
+<p>O Procedimento Seletivo de Estudantes deve prever, no mínimo, uma prova escrita para avaliar conhecimentos específicos e próprios do nível de ensino relativo ao estágio oferecido, observadas as demais instruções do Departamento de Gestão de Recursos Humanos. A lista de classificação será publicada no Diário da Justiça Eletrônico e divulgada no site do Tribunal de Justiça (Decreto Judiciário nº 345/2019, art. 13).</p>
+
+<p>Os estudantes aprovados poderão ser convocados, segundo a ordem de classificação, para entrevista com a autoridade solicitante, que analisará exclusivamente a aptidão do candidato para a vaga, conforme as demandas da unidade e o perfil acadêmico desejado. Os estudantes não selecionados na entrevista comporão cadastro de reserva para suprir outras vagas abertas ou que surjam no prazo de validade do procedimento seletivo. O processo seletivo realizado por uma unidade poderá ser aproveitado por outra, respeitada a ordem de classificação (Decreto Judiciário nº 345/2019, art. 15, § 2º).</p>
+
+<p>O próprio candidato ou qualquer interessado poderá acompanhar o andamento da lista de classificação a partir de uma planilha disponível na opção "Situação atualizada das listas de candidatos" dentro da página do Procedimento Seletivo de Estudantes. Após abrir a planilha talvez seja necessário clicar em "Habilitar Edição" e "Habilitar Conteúdo" para que a consulta possa ser feita pesquisando pelo nome completo do candidato.</p>
+</div>
+</details>
+
+<details><summary><i>03</i><span>Como é formulada a <strong>solicitação de admissão</strong> de estagiários? Por ocasião da admissão o que o estudante deverá comprovar?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A solicitação de admissão de estagiários, após a conclusão do procedimento seletivo, deverá ser formulada exclusivamente pelo Sistema Hércules (Decreto Judiciário nº 345/2019, art. 2º).</p>
+
+<p>Por ocasião da admissão, após a aprovação no procedimento seletivo, o estudante deverá comprovar (Decreto Judiciário nº 345/2019, art. 18):</p>
+
+<ul>
+	<li>Idade mínima de dezesseis anos completos, mediante apresentação do documento de Registro Geral (RG), emitido pela Secretaria de Estado da Segurança Pública (SESP);</li>
+	<li>Inscrição no Cadastro de Pessoa Física (CPF), mediante a apresentação de comprovante de situação cadastral, emitido, em até 30 (trinta) dias, pela Secretaria da Receita Federal do Brasil (RFB);</li>
+	<li>Inscrição perante a Justiça Eleitoral, para os maiores de 19 anos, mediante a apresentação do título de eleitor;</li>
+	<li>Estar em dia com as suas obrigações militares, para os brasileiros maiores de 19 anos, mediante a apresentação de certificado de alistamento, nos limites de sua validade, certificado de reservista, certificado de isenção ou certificado de dispensa de incorporação;</li>
+	<li>Matrícula e frequência regular e compatibilidade entre o curso e a vaga de estágio ofertada, a ser aferida pela Divisão de Estágio, mediante apresentação de atestado, comprovante ou declaração atualizados, emitidos, em até 30 (trinta) dias, pela instituição de ensino;</li>
+	<li>Residência, por meio de comprovante ou declaração atualizados, emitidos em até 30 (trinta) dias;</li>
+	<li>Celebração de termo de compromisso entre o estudante, o Tribunal de Justiça e a instituição de ensino;</li>
+	<li>A ausência de registro de antecedentes criminais, para os maiores de dezoito anos, mediante apresentação de certidão negativa, emitida em até 30 (trinta) dias, ressalvado o art. 5º, inciso LVII, da CF/88;</li>
+	<li>Não se enquadrar nas causas de impedimento previstas neste Decreto, bem como estar ciente da impossibilidade de iniciar ou continuar as atividades sem a devida formalização do estágio, por meio de declaração escrita, conforme modelo disponível no site do TJPR;</li>
+</ul>
+
+<p class="law">§ 1º No estágio não obrigatório de pós-graduação, além dos documentos elencados nos incisos I a IX, o estudante deverá comprovar ser portador de diploma de curso superior ou apresentar o certificado de conclusão do curso, acompanhado do histórico escolar.</p>
+
+<p class="law">§ 2º No estágio obrigatório, além dos documentos elencados nos incisos I a IX, deverá ser apresentada cópia do projeto do curso.</p>
+
+<p class="law">§ 3º Os arquivos contendo as cópias digitalizadas dos documentos supracitados deverão ser acostados, pela chefia imediata, ao requerimento de admissão, nos termos do artigo 2º, juntamente com fotografia colorida e atualizada, em arquivo de imagem, para registro nos assentamentos do estagiário e confecção do crachá de identificação.</p>
+</div>
+</details>
+
+<details><summary><i>04</i><span>Quais os <strong>encargos e obrigações trabalhistas</strong> existentes na contratação de estagiários?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O estágio de estudantes não se confunde e não deve se confundir com emprego, quer de caráter temporário, quer de duração indeterminada. São figuras totalmente distintas. O estágio não é, portanto, emprego; logo, não cria vínculo empregatício entre as partes e é regulamentado por legislação específica (Lei 11.788, de 25 de setembro de 2008).</p>
+
+<p>Por não ser empregado, o estagiário não é cadastrado no PIS/PASEP, não faz jus ao aviso prévio em caso de rescisão contratual nem a 13º salário; ao estagiário, também, não se aplicam as obrigações relativas a contrato de experiência, contribuição sindical, aviso prévio, 1/3 sobre férias (recesso) e verbas rescisórias. Sobre a bolsa-auxílio não incidem contribuições para o INSS, nem para o FGTS.</p>
+</div>
+</details>
+
+<details><summary><i>05</i><span>Qual é a <strong>carga horária</strong> do estágio no Poder Judiciário do Estado do Paraná?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Os estagiários sujeitam-se à seguinte carga horária (Decreto Judiciário nº 345/2019, art. 8º, caput, I, II e III):</p>
+
+<ul>
+	<li>Estudantes de ensino médio, educação de jovens e adultos no ensino médio, educação profissional técnica de nível médio e educação especial, 4 (quatro) horas diárias e 20 (vinte) horas semanais;</li>
+	<li>Estudantes de educação superior de graduação, 5 (cinco) horas diárias e 25 (vinte e cinco) horas semanais;</li>
+	<li>Estudantes de educação superior de pós-graduação, 6 (seis) horas diárias e 30 (trinta) horas semanais.</li>
+	<li>Se a instituição de ensino adotar verificações de aprendizagem periódicas ou finais, nos períodos de avaliação, a carga horária do estágio será reduzida à metade, segundo estipulado no termo de compromisso, para garantir o bom desempenho do estudante. Para pleitear a redução de jornada, o estagiário deverá apresentar ao supervisor declaração da instituição de ensino, com antecedência de 3 (três) dias úteis (Decreto Judiciário nº 345/2019, art. 8º, §§ 1º, 2º e 3º).</li>
+</ul>
+</div>
+</details>
+
+<details><summary><i>06</i><span>Em termos de <strong>benefícios trabalhistas</strong>, o estagiário pode receber o mesmo tratamento dado ao funcionário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O estagiário não tem direito aos benefícios assegurados aos demais empregados, tais como vale-alimentação, assistência médica, licença-maternidade, dentre outros. De acordo com a legislação atual, os estagiários têm direito ao auxílio-transporte, recesso remunerado proporcional e bolsa-auxílio (para os estágios não-obrigatórios).</p>
+
+<p>É assegurado o recesso de trinta dias sempre que o estágio tenha duração igual ou superior a um ano, preferencialmente durante suas férias escolares. O recesso será remunerado para os estagiários que recebem bolsa-auxílio. É possível o fracionamento do recesso em dois períodos de quinze dias cada, sendo necessários seis meses de efetiva atividade, para concessão de cada período. O recesso é proporcional quando o estágio tem duração inferior a um ano (Decreto Judiciário nº 345/2019, art. 27).</p>
+
+<p>Caso deseje usufruir o período de recesso a que tem direto, o estagiário deverá combinar previamente com seu supervisor de estágio que, diante da viabilidade da concessão do recesso no período desejado, irá comunicar à chefia imediata para que este faça a requisição do recesso remunerado no sistema Hércules.</p>
+
+<p>Haverá pagamento proporcional de bolsa-auxílio referente ao recesso não usufruído, quando houver desligamento do estagiário (Decreto Judiciário nº 345/2019, art. 27, § 4º).</p>
+</div>
+</details>
+
+<details><summary><i>07</i><span>Embora a legislação específica garanta que o estágio não cria <strong>vínculo empregatício</strong>, o que é necessário, na prática, para evitar-se esse risco?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O Termo de Compromisso de Estágio (TCE), vinculado e em conjunto com o instrumento jurídico (Acordo de Cooperação), constitui um dos componentes exigíveis, pela autoridade competente, da inexistência de vínculo empregatício. Além disso, deve a pessoa jurídica concedente verificar a regularidade da situação escolar do estudante, pois a conclusão e o abandono do curso, ou trancamento de matrícula, são eventos que impedem a continuidade das atividades de estágio, porque descaracterizam a condição legal de estagiário, podendo gerar vínculo empregatício. Quando a parte concedente mantém convênio com as instituições de ensino, estas são responsáveis por comunicar quaisquer alterações na situação escolar do estudantes, embora a parte concedente também seja responsável por realizar verificações periódicas da situação escolar.</p>
+</div>
+</details>
+
+<details><summary><i>08</i><span>É obrigatório o registro do estágio na <strong>carteira profissional</strong> do estudante (CTPS)?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A Lei n.º 11.788, de 25 de setembro de 2008, não trata da anotação do estágio na respectiva Carteira de Trabalho e Previdência Social - CTPS. O Ministério do Trabalho, inclusive, já manifestou-se sobre o assunto, enfatizando que não é necessário a anotação do estágio na CTPS do estudante.</p>
+</div>
+</details>
+
+<details><summary><i>09</i><span>O estagiário pode receber <strong>comissões e horas extras</strong>?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Estágio não é emprego e, portanto, não se aplica ao estagiário o dispositivo da legislação trabalhista, no que se refere a horas extras e comissões.</p>
+</div>
+</details>
+
+<details><summary><i>10</i><span>Pode ser concedido <strong>intervalo</strong> (lanche/almoço/jantar) durante a jornada de estágio?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Não há previsão de intervalo durante a jornada de estágio, cabendo ser utilizado o bom senso por parte do supervisor do estagiário.</p>
+</div>
+</details>
+
+<details><summary><i>11</i><span>O termo de compromisso de estágio pode ser <strong>rescindido</strong> antes do seu término?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Sim, tanto pela empresa quanto pelo estagiário, e por solicitação da instituição de ensino quando for identificada qualquer irregularidade nas condições preestabelecidas para o estágio e nos casos estabelecidos pelo Decreto Judicário nº 345/2019, art. 36:</p>
+
+<ul>
+	<li>Com o fim do termo de compromisso;</li>
+	<li>A qualquer tempo, no interesse do Poder Judiciário, a pedido do estagiário ou por comunicação do Departamento de Gestão de Recursos Humanos, à chefia imediata, acerca de eventuais irregularidades informadas pela instituição de ensino, por meio de e-mail, ou constatadas pela Divisão de Estágio mediante atestado, comprovante ou declaração de matrícula, anexados pela chefia imediata, junto ao Sistema Hércules, conforme o artigo 24, § 3º;</li>
+	<li>Pelo descumprimento de cláusula do termo de compromisso;</li>
+	<li>Por faltas não justificadas por mais de cinco dias, ou atrasos não justificados por mais de dez dias, ambos consecutivos ou não, no período de um mês;</li>
+	<li>Pela inadaptação e/ou incompatibilidade supervenientes;</li>
+	<li>Pela interrupção, abandono ou conclusão de todas as disciplinas do curso na instituição de ensino a que pertença;</li>
+	<li>Pelo trancamento da matrícula, pela transferência de instituição de ensino e pela mudança de curso;</li>
+	<li>Pela alteração do nível de ensino e da modalidade de educação do curso (nível médio: ensino médio, educação de jovens e adultos no ensino médio, educação profissional técnica de nível médio, incluindo os cursos técnicos concomitantes, integrados e subsequentes, e educação especial; educação superior de graduação; educação superior de pósgraduação);</li>
+	<li>Pela alteração da área de conhecimento do curso, conforme definição do Ministério da Educação (Tabela de Áreas de Conhecimento/Avaliação da Fundação CAPES, 2º nível);</li>
+</ul>
+
+<p>O desligamento do estagiário deve ser comunicado à Divisão de Estágio pelo supervisor, no prazo máximo de um mês (Decreto Judiciário nº 345/2019, art. 36, § 1º).</p>
+
+<p>O motivo da interrupção do estágio será anotado no cadastro do estagiário e informado à instituição de ensino (Decreto Judiciário nº 345/2019, art. 36, § 2º).</p>
+</div>
+</details>
+
+<details><summary><i>12</i><span>O <strong>pagamento</strong> aos estagiários é obrigatório?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Depende do tipo de estágio. Os estagiários de estágio não obrigatório recebem valores de bolsa-auxílio, auxílio-transporte e eventuais recessos não usufruídos durante o período do estágio. O mesmo não ocorre com os estudantes que prestam atividades de estágio obrigatório, ou seja, não são remunerados.</p>
+</div>
+</details>
+
+<details><summary><i>13</i><span>Quem paga a <strong>bolsa-auxílio</strong>, o auxílio-transporte e o recesso remunerado não usufruído?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A bolsa-auxílio mensal é paga pela parte concedente do estágio, ou seja, o Poder Judiciário do Estado do Paraná, por meio da Divisão de Folha de Pagamento do Departamento Econômico e Financeiro, com recursos transferidos pelo TJPR. O pagamento dos estagiários é custeado pelo Centro de Apoio ao Fundo da Justiça (FUNJUS), para aqueles que prestam atividades no 1º grau de jurisdição, e pelo Departamento Econômico e Financeiro (DEF), para aqueles que prestam atividades no 2º grau de jurisdição. O pagamento da bolsa-auxílio e do auxílio-transporte aos estagiários será feito até o 10º (décimo) dia útil de cada mês, mediante crédito dos valores exclusivamente em conta corrente de titularidade do próprio estagiário em qualquer instituição bancária.</p>
+
+<p>Considerando as informações já fornecidas pela Divisão de Folha de Pagamento, a data prevista da folha de pagamento mensal dos estagiários é o décimo dia útil de cada mês e o pagamento do recesso remunerado não usufruído normalmente ocorre dois meses após a rescisão do termo de compromisso de estágio também no décimo dia útil do respectivo mês.</p>
+</div>
+</details>
+
+<details><summary><i>14</i><span>Quem determina o <strong>valor da bolsa-auxílio</strong> e do auxílio-transporte? Há reajuste dos valores?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O valor da bolsa-auxílio e do auxílio-transporte é determinado por decisão do Excelentíssimo Senhor Presidente desta Corte. O reajuste da bolsa-auxílio atualmente não é mais vinculado ao reajuste do salário mínimo federal, nem é vinculado ao reajuste dos servidores, sendo a critério do Presidente. O valor do auxílio-transporte é definido por ato do Presidente do Tribunal de Justiça.</p>
+</div>
+</details>
+
+<details><summary><i>15</i><span>Quem providencia o <strong>seguro contra acidentes pessoais</strong>? Quais as coberturas? Como funciona?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O seguro contra acidentes pessoais em favor do estagiário é providenciado pelo Tribunal de Justiça do Estado do Paraná, quando estágio não obrigatório. Durante o período de vigência do estágio, o estagiário estará coberto contra acidentes pessoais até R$ 10.000,00 (dez mil reais), em caso de morte e invalidez permanente ou parcial por acidente, e despesas médico-hospitalares até R$ 1.576,00 (mil quinhentos e setenta e seis reais).</p>
+
+<p>Para o estágio obrigatório, o seguro deve ser contratado pela instituição de ensino.</p>
+</div>
+</details>
+
+<details><summary><i>16</i><span>O estagiário paga <strong>imposto de renda</strong>?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Sim, quando o valor mensal recebido ultrapassa a faixa de isenção da Tabela do IRRF - Imposto de Renda Retido na Fonte. Sendo um desconto na fonte, deverá ser feito diretamente pela Divisão de Folha de Pagamento do Departamento Econômico e Financeiro.</p>
+</div>
+</details>
+
+<details><summary><i>17</i><span>Qual a <strong>duração do estágio</strong> no Poder Judiciário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O artigo 11 da Lei nº 11.788, de 25 de setembro de 2008, exige que a duração do estágio não poderá exceder dois anos, exceto quando se tratar de estagiário portador de deficiência.</p>
+
+<p class="subt">O artigo 10º do Decreto Judiciário nº 345/2019 estabelece que:</p>
+
+<p>Art. 10º O período de estágio não excederá 2 (dois) anos, exceto quando se tratar de Pessoas com Deficiência (PcD).</p>
+
+<p>Parágrafo Único. O cômputo do período dar-se-á por nível de ensino (nível médio, graduação e pós-graduação).</p>
+
+<p>O termo de compromisso de estágio e plano de estágio (TCE/PE) é emitido com duração máxima de 1 (um) ano, podendo ser prorrogada a vigência do mesmo, por igual período. A prorrogação, no entanto, não é automática, devendo ser requerida, pela chefia imediata, exclusivamente por meio do Sistema Hércules, devendo-se anexar ao requerimento declaração de matrícula original e atualizada, emitida em até 30 dias.</p>
+</div>
+</details>
+
+<details><summary><i>18</i><span>Pode ser concedido estágio a <strong>estudantes estrangeiros</strong>? e a estudantes matriculados em cursos à distância? e a estudantes matriculados no ensino de jovens e adultos - EJA?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A realização de estágios, nos termos da Lei nº 11.788/2008, aplica-se aos estudantes estrangeiros regularmente matriculados em cursos superiores no País, autorizados ou reconhecidos, observado o prazo do visto temporário de estudante, na forma da legislação aplicável.</p>
+
+<p>Poderá ocorrer a admissão de estudantes matriculados em cursos à distância, desde que a instituição de ensino a que ele estiver vinculado seja credenciada junto ao Ministério da Educação.</p>
+
+<p>Poderá ocorrer a admissão de estudantes matriculados no ensino de jovens e adultos - EJA, desde que matriculado em módulo (ou equivalente) relativo ao ensino médio.</p>
+</div>
+</details>
+
+<details><summary><i>19</i><span>É possível contratar-se, como estagiário, um estudante que <strong>terminou o curso</strong>?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Sim, desde que o estudante ainda não tenha cumprido o total da carga horária obrigatória de estágio, para a respectiva conclusão do curso. No entanto, nesses casos, a contratação deverá ter por base uma declaração da instituição de ensino, atestando a necessidade e a carga horária faltante, pois a vigência do TCE não poderá ultrapassá-la.</p>
+</div>
+</details>
+
+<details><summary><i>20</i><span>O estudante pode ser, ao mesmo tempo, <strong>funcionário e estagiário</strong>?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Servidor público pode realizar estágio obrigatório, não remunerado, e sem auxílio-transporte, desde que haja compatibilidade de horário (Decreto Judiciário nº 345/2019, art. 6º).</p>
+
+<p>Será possível acumular apenas as atribuições de estagiário remunerado (estágio não obrigatório) e conciliador (remunerado ou não remunerado) do Poder Judiciário, desde que haja compatibilidade de horário.</p>
+
+<p>Em ambos os casos, deverá ser firmado termo de compromisso de estágio com o Poder Judiciário.</p>
+</div>
+</details>
+
+<details><summary><i>21</i><span>Por que a <strong>instituição de ensino</strong> deve participar do estágio?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O estágio caracteriza-se como um componente do processo de formação do estudante, com objetivos educacionais-formativos e como fator de interesse pedagógico; portanto, como procedimento didático-pedagógico, é atividade de competência da instituição de ensino, que dispõe sobre as condições e requisitos para a realização do estágio de seus alunos, bem como pelos processos de acompanhamento, supervisão e avaliação. O estágio deve ser visto e entendido como um acessório do estudo, pois além do entendimento prático-pedagógico, fornece a oportunidade do estudante vivenciar na prática o bom relacionamento humano e social que qualificará a sua formação.</p>
+</div>
+</details>
+
+<details><summary><i>22</i><span>Quais são as atribuições do <strong>supervisor de estágio</strong> no Poder Judiciário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O supervisor, com formação ou experiência profissional na área de conhecimento em que se realizará o estágio, deverá ser indicado pelo responsável pela unidade solicitante (Decreto Judiciário nº 345/2019, art. 24).</p>
+
+<p class="subt">São atribuições do supervisor (Decreto Judiciário nº 345/2019, art. 26):</p>
+
+<ul>
+	<li>Acompanhar as atividades de estágio no âmbito da unidade que receber o estagiário;</li>
+	<li>Orientar o estagiário quanto aos aspectos de conduta funcional e as normas do Poder Judiciário do Estado do Paraná;</li>
+	<li>Promover a adequação entre a carga horária do estágio, o expediente do Poder Judiciário do Estado do Paraná, o horário e o calendário escolar do estagiário na instituição de ensino, bem como o tempo necessário ao deslocamento do estudante da instituição de ensino para a unidade concedente de estágio, e vice-versa;</li>
+	<li>Observar a existência de correlação entre as atividades do estágio e as disciplinas do curso, nos casos de cursos técnicos subsequentes, de graduação e de pós-graduação;</li>
+	<li>Preencher periodicamente o relatório de atividades, com vista obrigatória ao estagiário, nos termos da Lei Federal nº 11.788/2008, artigos 3º, § 1º, 7º, IV, 9º, VII.</li>
+</ul>
+
+<p class="law">§ 1º O supervisor de estágio deverá comunicar mensalmente, à chefia imediata da unidade concedente, eventuais ocorrências de faltas, atrasos e saídas antecipadas, para fins de registro, no boletim de frequência, os quais irão acarretar em descontos proporcionais na bolsa-auxílio e/ou no auxílio-transporte do respectivo mês.</p>
+
+<p class="law">§ 2º A apresentação de atestado médico, pelo estagiário, junto à unidade concedente de estágio, até o máximo de 15 (quinze) dias, contínuos ou não, durante o período de 1 (um) ano, para fins de registro pela chefia imediata, no boletim de frequência, ocasionará o abono do período indicado no atestado médico e o desconto somente no valor do auxíliotransporte, mantendo-se íntegro o valor recebido a título de bolsa-auxílio.</p>
+
+<p class="law">§ 3º A apresentação de atestado médico por período superior ao descrito no parágrafo anterior acarretará abono do período indicado no atestado médico, até o máximo de 15 (quinze) dias, contínuos ou não, durante o período de 1 (um) ano, e desconto, referente aos dias excedentes, dos valores de bolsa-auxílio e de auxílio-transporte, correspondentes ao período.</p>
+
+<p class="law">§ 4º A apresentação, pelo estagiário, de declaração de cumprimento de serviços obrigatórios por lei, para fins de registro pela chefia imediata, no boletim de frequência, ocasionará o abono do período indicado na declaração e o desconto somente no valor do auxílio-transporte, mantendo-se íntegro o valor recebido a título de bolsa-auxílio.</p>
+
+<p class="law">§ 5º Nos períodos de avaliação, com a redução da carga horária do estágio pelo menos à metade, nos termos do art. 8º, §§ 2º e 3º, deverá ser registrada a respectiva ocorrência, no boletim de frequência, sem desconto de bolsa-auxílio e de auxílio-transporte.</p>
+</div>
+</details>
+
+<details><summary><i>23</i><span>O estagiário pode ser <strong>remanejado ou permutado</strong> para outra unidade do Poder Judiciário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Sim. O estagiário pode ser remanejado ou permutado para outra unidade do Poder Judiciário desde que observadas as exigências previstas no art. 35, do Decreto Judiciário nº 345/2019. É importante destacar que o deslocamento dos estagiários às unidades interessadas não é permitido antes da autorização do Departamento de Gestão de Recursos Humanos.</p>
+</div>
+</details>
+
+<details><summary><i>24</i><span>O uso do <strong>crachá</strong> de identificação é obrigatório? Como solicitar o crachá? Ao término do estágio, o que deve ser feito com o crachá de identificação?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O uso do crachá de identificação é obrigatório para acesso e circulação dentro das dependências do Tribunal de Justiça conforme Resolução 176/2013 do CNJ. Ao término do estágio, o estagiário deverá entregá-lo ao seu supervisor de estágio, para que este o inutilize.</p>
+
+<p>A Divisão de Estágio não tem competência para tratar de qualquer assunto relacionado a crachás. Solicitações de crachás ou qualquer dúvida ou assunto relacionado a crachás devem ser encaminhadas para o setor específico entrando em contato através do telefone (41) 3228-5772 ou através do e-mail cracha@tjpr.jus.br .</p>
+</div>
+</details>
+
+<details><summary><i>25</i><span>Há <strong>vedações</strong> para o estágio?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p class="subt">Sim. Há as seguintes vedações para o estágio de estudantes junto ao Poder Judiciário:</p>
+
+<ul>
+	<li>É vedada, em qualquer forma de estágio, a contratação de estagiário para atuar, sob orientação ou supervisão, diretamente subordinado a membros do Poder Judiciário ou a servidor investido em cargo de direção, chefia ou assessoramento que lhe seja cônjuge, companheiro ou parente até o terceiro grau, inclusive, por consanguinidade ou afinidade. (Decreto Judiciário nº 345/2019, art. 28, caput e parágrafo único).</li>
+	<li>É vedada a admissão de estudante vinculado a escritório de advocacia e a processos em andamento na Justiça Estadual do Paraná. O estagiário de pós-graduação inscrito na Ordem dos Advogados do Brasil deverá licenciar-se para iniciar suas atividades (Decreto Judiciário nº 345/2019, art. 29, caput e parágrafo único).</li>
+	<li>É vedada a cumulação das atribuições de estagiário e juiz leigo, e de estagiário e de oficial de justiça ad hoc, no entanto, não é vedada a cumulação das atribuições de estagiário e agente delegado, e de estagiário e conciliador (remunerado ou não), desde que nesta cumulação não ocorra nenhum dos impedimentos previstos no presente Decreto e na Resolução nº 4/2013 – CSJEs, observada a compatibilidade de horários - (art. 30, do Decreto Judiciário 345/2019).</li>
+	<li>É vedado o início das atividades de estágio sem a formalização do termo de compromisso, que se dará com as assinaturas de todas as partes interessadas (estudante, supervisor de estágio e instituição de ensino), bem como da(s) testemunha(s) - (Decreto Judiciário nº 345/2019, art. 31).</li>
+	<li>É vedado a continuidade das atividades de estágio após o término da vigência do termo de compromisso, enquanto ainda não formalizado - (Decreto Judiciário nº 345/2019, art. 31).</li>
+	<li>É vedado ao supervisor de estágio permitir que o(a) estagiário(a) inicie as atividades de estágio sem a formalição do termo de compromisso - (Decreto Judiciário nº 345/2019, art. 32).</li>
+	<li>É vedado ao supervisor de estágio permitir que o(a) estagiário(a) continue as atividades de estágio sem a formalição do termo de compromisso aditivo - (Decreto Judiciário nº 345/2019, art. 32).</li>
+	<li>É vedado ao estagiário prestar atividades de estágio em horário diverso ao previsto no termo de compromisso de estágio e plano de estágio (TCE/PE), bem como nos planos de estágio aditivos (PEA), considerando que a cobertura do seguro contra acidentes pessoais, em favor do estagiário, deverá ocorrer somente durante o horário de estágio, previsto no termo de compromisso, bem como no deslocamento para o estágio e no retorno dele - (Decreto Judiciário 345/19, art. 33).</li>
+	<li>* Artigo 32, parágrafo único, do Decreto Judiciário 345/19: Se ocorrer o início ou a continuidade do estágio sem a devida formalização prevista neste Decreto, ainda que autorizado pelo supervisor de estágio, sob pena de responsabilidade, não</li>
+	<li>será creditado qualquer valor em favor do estudante e tampouco será reconhecido o período de atividades anterior ou posterior à vigência do estágio, ou ainda, posterior à denúncia do termo de compromisso.</li>
+</ul>
+</div>
+</details>
+
+<details><summary><i>26</i><span>Quando devem ser <strong>iniciadas as atividades</strong> de estágio?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O estágio tem início com a celebração do termo de compromisso de estágio e plano de estágio (TCE/PE), em três vias, entre o estudante, seu representante ou assistente legal, a unidade concedente do estágio e a instituição de ensino.</p>
+
+<p>As atividades de estágio devem ser iniciadas de acordo com a vigência do referido termo e somente após o colhimento das assinaturas das partes envolvidas, isto é, somente após a formalização da admissão prevista no Decreto Judiciário nº 345/2019, conforme dispõe o art. 31. É vedado o início do estágio sem a devida formalização da admissão diante do disposto no artigo mencionado anteriormente, bem como considerando ainda que:</p>
+
+<ul>
+	<li>o Ofício-Circular 81 (0621938), exarado, à época, pelo Diretor-Geral do Tribunal de Justiça, bem como anexado ao processo sob nº SEI 0071552-27.2015.8.16.6000, orienta "a todos os supervisores de estágio que o estudante inicie suas atividades junto a esta Corte apenas após a devida formalização";</li>
+	<li>o Termo de Convênio firmado entre a instituição e o TJPR, dispõe em contrário, por meio da CLÁUSULA 6ª - DO TERMO DE COMPROMISSO DE ESTÁGIO, § 1º;</li>
+	<li>o próprio termo de compromisso de estágio e plano de estágio, firmado entre o estudante, a instituição de ensino e a unidade concedente de estágio, dispõe em contrário, por meio da Cláusula 2ª - DAS CONDIÇÕES DO ESTÁGIO, § 1º, e da Cláusula 5ª - DOS DIREITOS E DAS OBRIGAÇÕES DO ESTAGIÁRIO, §§ 1º e 2º.</li>
+	<li>O termo de compromisso deve conter (Decreto Judiciário nº 345/2019, art. 21):</li>
+</ul>
+
+<ul>
+	<li>A identificação do estagiário, da instituição de ensino e da unidade concedente do Poder Judiciário que está ofertando a oportunidade de estágio;</li>
+	<li>A duração do estágio e a carga horária diária e semanal e os horários de início e término;</li>
+	<li>A previsão de pagamento de bolsa-auxílio e de auxíliotransporte, quando for o caso;</li>
+	<li>A indicação da contratação de seguro contra acidentes pessoais em favor do estagiário;</li>
+	<li>A indicação do supervisor do estágio;</li>
+	<li>A indicação das condições de adequação do estágio à proposta pedagógica do curso, à etapa e modalidade da formação escolar do estudante, ao horário e calendário escolar bem como das atividades a serem desenvolvidas no estágio;</li>
+	<li>O plano de atividades do estagiário;</li>
+	<li>Menção à obrigação de cumprir as normas disciplinares do órgão concedente da oportunidade de estágio e de preservar o sigilo sobre as informações a que tiver acesso;</li>
+	<li>Menção de que o estágio não acarreta qualquer vínculo empregatício e funcional;</li>
+	<li>Menção de que eventuais faltas, justificadas ou não, bem como atrasos e saídas antecipadas, inclusive em decorrência do tempo necessário para o deslocamento do estudante da instituição de ensino para a unidade concedente de estágio, e vice-versa, acarretarão em descontos proporcionais na bolsa-auxílio e/ou no auxílio-transporte do respectivo mês;</li>
+	<li>Condições de desligamento do estagiário;</li>
+	<li>Assinaturas do estagiário, de seu representante ou assistente legal, do supervisor de estágio e do representante da instituição de ensino.</li>
+</ul>
+</div>
+</details>
+
+<details><summary><i>27</i><span>Onde deve ser solicitada a criação de <strong>login e senha</strong> para os estagiários, bem como o acesso aos sistemas informatizados do Poder Judiciário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A solicitação de criação de login e senha, bem como o acesso aos sistemas informatizados do Poder Judiciário, deve ser requerida à Divisão de Atendimento ao Usuário do Departamento de Tecnologia da Informação e Comunicação (DTIC), por meio do telefone (41)3200-4000, ou pelo e-mail atendimento@tjpr.jus.br ou pelo Sistema de Atendimento ao Usuário (SAU).</p>
+
+<p>Cabe ressaltar que a criação de login (e senha) somente estará disponível após a homologação do termo de compromisso de estágio, devendo, ainda, ser considerada a data do início das atividades de estágio.</p>
+</div>
+</details>
+
+<details><summary><i>28</i><span>As dúvidas relativas ao <strong>pagamento dos estagiários</strong> remunerados devem ser questionadas junto a qual unidade? E as demais dúvidas?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>As dúvidas relativas ao pagamento dos estagiários remunerados assim como extrato dos valores recebidos a título de bolsa-auxílio para fins de declaração de imposto de renda deverão ser tratadas diretamente junto ao Departamento Econômico e Financeiro (DEF), que é responsável pelo cálculo da bolsa-auxílio, do auxílio-transporte e do recesso remunerado não usufruído, bem como pelo envio das ordens de pagamento às instituições bancárias, após o fechamento da folha de pagamento.</p>
+
+<p class="subt">Dúvidas sobre o pagamento dos estagiários:</p>
+
+<p>Dúvidas sobre o pagamento dos estagiários assim como extrato dos valores recebidos a título de bolsa-auxílio para fins de declaração de imposto de renda deverão ser tratadas diretamente com a Divisão de Folha de Pagamento do Departamento Econômico e Financeiro (DEF) através dos emails folhaestagiario@tjpr.jus.br ou dcfp@tjpr.jus.br, pelo contato no Skype folhaestagiario ou pelos seguintes telefones:</p>
+
+<ul>
+	<li>(41) 3228-5725</li>
+	<li>(41) 3228-5837</li>
+	<li>(41) 3228-5911</li>
+</ul>
+
+<p>As demais dúvidas, que não sejam relacionadas ao pagamento, à criação de login e senha ou ao acesso a sistemas informatizados, relacionadas a procedimentos administrativos e assentamentos funcionais de estagiários, deverão ser questionadas junto à Divisão de Estágio.</p>
+
+<p>Dúvidas sobre procedimentos seletivos, procedimentos administrativos e assentamentos funcionais de estagiários:</p>
+
+<ul>
+	<li>Lista no Sistema Mensageiro: Seção de Teste Seletivo, Fone: (41) 3228-5706.</li>
+	<li>Lista no Sistema Mensageiro: Seção de Estagiários do 2º Jurisdição, Fone: (41) 3228-5703.</li>
+	<li>Lista no Sistema Mensageiro: Seção de Estagiários das Comarcas do Interior, Fones: (41) 3228-5703.</li>
+	<li>Lista no Sistema Mensageiro: Seção de Estagiários dos Foros da Comarca da Região Metropolitana de Curitiba e Seções Judiciárias, Fone: (41) 3228-5703.</li>
+</ul>
+</div>
+</details>
+
+<details><summary><i>29</i><span>Por quem são definidas as <strong>vagas de estágio</strong> não obrigatório do Tribunal de Justiça? Qual o número máximo de estagiários? São reservadas vagas aos candidatos portadores de necessidades especiais?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>As vagas de estágio serão definidas anualmente pelo Presidente do Tribunal de Justiça (Decreto Judiciário nº 345/2019, art. 37).</p>
+
+<p>O número máximo de estagiários de ensino médio e de educação especial não deve ultrapassar 20% (vinte por cento) dos Quadros de Pessoal do Poder Judiciário, considerada isoladamente a vinculação à Diretoria-Geral do Tribunal de Justiça e ao 1º Grau de Jurisdição. Não se aplica o percentual disposto anteriormente aos estagiários de nível médio profissional e superior, incluindo graduação e pós-graduação (Decreto Judiciário nº 345/2019, art. 38, § 1º).</p>
+
+<p>Aos candidatos portadores de necessidades especiais serão reservados 10% (dez por cento) das vagas na seleção e sua classificação no processo seletivo constará de listagem geral e de listagem específica. As vagas que não forem providas por falta de candidatos portadores de necessidades especiais aprovados serão preenchidas pelos demais candidatos, observada a ordem geral de classificação (Decreto Judiciário nº 345/2019, art. 39).</p>
+</div>
+</details>
+
+<details><summary><i>30</i><span>Por quem é definido o <strong>reajuste</strong> da bolsa-auxílio e do auxílio-transporte?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>O reajuste da bolsa-auxílio e do auxílio-transporte será definido pelo Presidente do Tribunal, observada a disponibilidade orçamentária e financeira (Decreto Judiciário nº 345/2019, art. 54).</p>
+</div>
+</details>
+
+<details><summary><i>31</i><span>Em caso de <strong>alteração do curso</strong> e/ou instituição de ensino ocorre o desligamento do estagiário? É necessária a abertura de procedimento seletivo para a admissão de novo estagiário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>Quanto à pergunta inicial: sim, há a necessidade de interromper as atividades de estágio e formalizar a rescisão do termo de compromisso.</p>
+
+<p>Em relação ao segundo questionamento deste tópico, o Decreto Judiciário nº 345/2019, art. 36, §§ 3º e 4º, prevê as seguintes hipóteses para nova admissão de estudante que teve alteração de curso e/ou instituição de ensino ou, ainda, que teve negada a renovação do termo de compromisso aditivo de estágio pela instituição de ensino, com consequente alteração da data de início:</p>
+
+<p class="law">§ 3º Não ensejará a necessidade de aprovação em procedimento público de seleção, a renovação do estágio e/ou a alteração do curso e/ou de instituição de ensino, realizadas por meio de plano aditivo ou novo termo de compromisso, a critério da instituição de ensino, desde que não haja mudança de nível de ensino e modalidade de educação e área de conhecimento do curso, em conformidade com os incisos VIII e IX deste artigo; e</p>
+
+<p class="law">§ 4º Nas hipóteses previstas no parágrafo anterior, poderá ocorrer recontratação do estagiário, em decorrência do tempo necessário para a formalização do novo termo de compromisso, cuja vigência do mesmo poderá ser ajustada para data futura, a critério da instituição de ensino, até o limite de 45 (quarenta e cinco) dias consecutivos, considerando a data de encerramento do termo de compromisso precedente e a data de início do novo termo de compromisso, comprovadas a matrícula e a frequência regular do educando.</p>
+
+<p>Portanto, o Decreto Judiciário nº 345/2019 estabelece que a alteração do curso e/ou da instituição de ensino do estagiário não ensejará a necessidade de novo processo público de seleção, desde que as hipóteses sejam aquelas previstas no artigo 36.</p>
+
+<p>Dúvidas como proceder em caso de alteração de curso e/ou de instituição de ensino: "Alteração de Curso e/ou Instituição de Ensino e Impossibilidade de Renovação do Termo de Compromisso".</p>
+</div>
+</details>
+
+<details><summary><i>32</i><span>Como solicitar a <strong>Certidão de Estágio</strong> ou de Serviço Voluntário?</span><svg aria-hidden="true" class="chev" fill="none" focusable="false" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg></summary>
+
+<div class="ans">
+<p>A certidão de horas de estágio e/ou de serviço voluntário pode ser solicitada a qualquer momento preenchendo o FORMULÁRIO ELETRÔNICO disponível a partir da página inicial do site do Tribunal de Justiça do Paraná. Esse formulário é encaminhado eletronicamente para o Centro de Protocolo Judiciário que, após a triagem, irá protocolar o pedido de certidão no Sistema Eletrônico de Informações (SEI) e enviá-lo ao Departamento de Gestão de Recursos Humanos.</p>
+
+<p>O interessado poderá também efetuar o download do REQUERIMENTO, preenchê-lo corretamente, assiná-lo e entregá-lo junto à unidade administrativa ou judiciária na qual foi realizado o estágio ou junto ao Centro de Protocolo Judiciário Estadual, Autuação e Arquivo Geral, para que seja protocolado no Sistema Eletrônico de Informações (SEI) e enviado ao Departamento de Gestão de Recursos Humanos.</p>
+
+<p>A certidão será expedida pela Divisão de Estágio no prazo máximo de 05 (cinco) dias úteis a contar do recebimento do requerimento conforme art. 5º da PORTARIA Nº 991/2002 que regulamenta o fornecimento de certidões administrativas ou funcionais. A certidão será enviada para o e-mail informado pelo requerente no momento da solicitação.</p>
+</div>
+</details>
+</div>
+
+<p class="end">Não encontrou o que procurava? Consulte os <a href="#tjpr-estagio-orientacoes">modelos, orientações e materiais</a> ou entre em contato pelo canal de <a href="#tjpr-estagio-atendimento">atendimento</a> correspondente.</p>
+</section>
+
+<nav aria-label="Navegação rápida pelas seções" class="fnav">
+<ul>
+	<li class="teal"><a href="#tjpr-estagio-atendimento"><span class="lb">Atendimento e balcões virtuais</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M4 15v-3a8 8 0 0 1 16 0v3"></path><rect height="6" rx="1.5" width="4" x="3" y="13.5"></rect><rect height="6" rx="1.5" width="4" x="17" y="13.5"></rect><path d="M19 19.5v.5a2 2 0 0 1-2 2h-4"></path></svg></span></a></li>
+	<li class="navy"><a href="#tjpr-estagio-etapas"><span class="lb">Etapas do processo seletivo</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="19" r="2.5"></circle><circle cx="18" cy="5" r="2.5"></circle><path d="M8.5 19H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5"></path></svg></span></a></li>
+	<li class="gold"><a href="#tjpr-estagio-documentacao"><span class="lb">Documentação para admissão</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m9 13.5 2 2 4-4"></path></svg></span></a></li>
+	<li class="mint"><a href="#tjpr-estagio-aproveitamento"><span class="lb">Aproveitamento de processo seletivo</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M7 4 3 8l4 4"></path><path d="M3 8h14"></path><path d="m17 20 4-4-4-4"></path><path d="M21 16H7"></path></svg></span></a></li>
+	<li class="teal"><a href="#tjpr-estagio-pagamento"><span class="lb">Pagamento e frequência</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M20 7V5.5A1.5 1.5 0 0 0 18.5 4H5a2 2 0 0 0 0 4h14.5A1.5 1.5 0 0 1 21 9.5V12"></path><path d="M3 6v12a2 2 0 0 0 2 2h14.5a1.5 1.5 0 0 0 1.5-1.5V16"></path><path d="M21 12h-4a2 2 0 0 0 0 4h4z"></path></svg></span></a></li>
+	<li class="navy"><a href="#tjpr-estagio-certidoes"><span class="lb">Certidões e ofícios</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="m9 14 2 2 4-4"></path></svg></span></a></li>
+	<li class="gold"><a href="#tjpr-estagio-sistemas"><span class="lb">Acesso à rede e aos sistemas</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><rect height="12" rx="2" width="18" x="3" y="4"></rect><path d="M8 20h8M12 16v4"></path></svg></span></a></li>
+	<li class="mint"><a href="#tjpr-estagio-instituicoes"><span class="lb">Instituições de ensino</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M22 9.5 12 5 2 9.5l10 4.5z"></path><path d="M6 11.3V16c0 1.4 2.7 3 6 3s6-1.6 6-3v-4.7"></path><path d="M22 9.5V15"></path></svg></span></a></li>
+	<li class="teal"><a href="#tjpr-estagio-orientacoes"><span class="lb">Modelos, orientações e materiais</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H9a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V6z"></path><path d="M16 2v4h4"></path><path d="M4 7v12a2 2 0 0 0 2 2h9"></path></svg></span></a></li>
+	<li class="navy"><a href="#tjpr-estagio-programa"><span class="lb">Sobre o programa de estágio</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 7.8h.01"></path></svg></span></a></li>
+	<li class="gold"><a href="#tjpr-estagio-legislacao"><span class="lb">Legislação</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M7.5 21h9M4 7h16"></path><path d="M12 5 4 7m8-2 8 2"></path><path d="m4 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path><path d="m20 7-2.5 6a2.5 2.5 0 0 0 5 0z"></path></svg></span></a></li>
+	<li class="mint"><a href="#tjpr-estagio-faq"><span class="lb">Perguntas Frequentes (FAQ)</span><span aria-hidden="true" class="ic"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.1A8.5 8.5 0 1 1 21 12z"></path><path d="M9.8 9.6a2.3 2.3 0 1 1 3.2 2.1c-.6.3-1 .8-1 1.4v.3"></path><path d="M12 16.3h.01"></path></svg></span></a></li>
+	<li class="bx-li teal">
+	<div class="fbx"><span class="lb"><input aria-label="Buscar nesta página" autocomplete="off" id="tjpr-estagio-busca-f" placeholder="Buscar nesta página" type="search" /><button aria-label="Limpar busca" class="bx-x" type="button"><svg aria-hidden="true" fill="none" focusable="false" height="14" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></span><label class="ic" for="tjpr-estagio-busca-f" title="Buscar nesta página"><svg aria-hidden="true" fill="none" focusable="false" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></label></div>
+	</li>
+</ul>
+</nav>
+<a class="top" href="#tjpr-estagio-indice"><svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"></path></svg>Índice</a>
+
+<div aria-label="Busca ativa na página" class="bxb" id="tjpr-estagio-bxbar" role="region"><span class="bxb-ico"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></span><span aria-live="polite" class="bxb-msg"></span><span class="bxb-nav"><button aria-label="Resultado anterior" class="bxb-prev" title="Resultado anterior (Shift+Enter)" type="button"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m6 15 6-6 6 6"></path></svg><span>Anterior</span></button><button aria-label="Próximo resultado" class="bxb-next" title="Próximo resultado (Enter)" type="button"><svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"></path></svg><span>Próximo</span></button></span><button class="bxb-x" title="Limpar a busca e mostrar a página inteira (Esc)" type="button"><svg aria-hidden="true" fill="none" focusable="false" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M6 6l12 12M18 6 6 18"></path></svg><span>Limpar busca</span></button></div>
+<script>
+(function(){
+var R=document.getElementById('tjpr-estagio-conteudo');if(!R||R.getAttribute('data-bx-pronto'))return;R.setAttribute('data-bx-pronto','1');
+var inp=document.getElementById('tjpr-estagio-busca'),F=document.getElementById('tjpr-estagio-busca-f'),bar=document.getElementById('tjpr-estagio-bxbar');if(!inp)return;
+if(bar&&bar.parentNode!==document.body)document.body.appendChild(bar);
+var msg=bar?bar.querySelector('.bxb-msg'):null;
+var N=function(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();};
+var HL=!!(window.CSS&&CSS.highlights&&window.Highlight);
+var BL='.r,.step,.howto,.strip,.doc,.action,.laws li,.termo,.matl,.faq details';
+var occ=[],cur=-1,tot=0,ns=0,ultimo=null,tm,avT;
+var each=function(sel,f){[].forEach.call(R.querySelectorAll(sel),f);};
+function estado(on,zero){if(on&&bar){clearTimeout(avT);bar.classList.remove('bxb-aviso');}R.classList.toggle('bx-on',on);R.classList.toggle('bx-zero',zero);if(bar){bar.classList.toggle('bxb-on',on);bar.classList.toggle('bxb-zero',zero);bar.classList.toggle('bxb-um',occ.length<2);}}
+function plural(n,s,p){return n+' '+(n===1?s:p);}
+function texto(){if(!msg)return;var q='“'+inp.value.trim()+'”';
+ if(!tot){msg.textContent='Nenhum resultado para '+q;return;}
+ var n=occ.length||tot;
+ if(cur<0)msg.textContent=q+': '+plural(n,'resultado','resultados')+' em '+plural(ns,'seção','seções');
+ else msg.textContent=((window.matchMedia&&matchMedia('(max-width: 600px)').matches)?'':'Resultado ')+(cur+1)+' de '+occ.length+' \u00b7 '+q;}
+function filtrar(){
+ clearTimeout(tm);var q=N(inp.value.trim());ultimo=q;
+ var T=q.split(/\s+/).filter(function(x){return x.length>1;});var on=T.length>0;
+ if(F&&F.value!==inp.value)F.value=inp.value;
+ each('[data-bx-off]',function(e){e.removeAttribute('data-bx-off');});
+ each('details[data-bx-open]',function(d){d.open=d.getAttribute('data-bx-open')==='1';d.removeAttribute('data-bx-open');});
+ each('[data-bx-n]',function(e){e.removeAttribute('data-bx-n');e.removeAttribute('data-bx-zero');if(e.tagName==='A')e.removeAttribute('title');});
+ if(HL){CSS.highlights.delete('tjpr-busca');CSS.highlights.delete('tjpr-busca-atual');}
+ each('.rail .step,.doclist .doc',function(e){if(!e.hasAttribute('data-bx-num'))e.setAttribute('data-bx-num',[].indexOf.call(e.parentNode.children,e)+1);});
+ occ=[];cur=-1;tot=0;ns=0;
+ if(!on){estado(false,false);if(msg)msg.textContent='';return;}
+ var has=function(e){var t=N(e.textContent);return T.every(function(x){return t.indexOf(x)>-1;});};
+ var off=function(e){e.setAttribute('data-bx-off','');};
+ var opn=function(d){if(d.tagName==='DETAILS'&&!d.hasAttribute('data-bx-open')){d.setAttribute('data-bx-open',d.open?'1':'0');d.open=true;}};
+ var walk=function(c){var K=[].slice.call(c.children),h=0;
+  if(K.some(function(k){return /^(H[2-6]|SUMMARY)$/.test(k.tagName)&&has(k);})){opn(c);return 1;}
+  K.forEach(function(k){
+   if(/^(SCRIPT|STYLE)$/.test(k.tagName)||k.classList.contains('badge-ico'))return;
+   if(/^(H[2-6]|SUMMARY)$/.test(k.tagName))return;
+   var r=0;if(k.querySelector(BL)){r=walk(k);}else if(has(k)){r=1;}
+   if(r){h+=r;opn(k);}else off(k);
+  });return h;};
+ var ct={},oc={};
+ each('section.sec',function(s){var n=walk(s);ct[s.id]=n;oc[s.id]=0;if(n){tot+=n;ns++;}else off(s);});
+ each('section.sec:not([data-bx-off])',function(s){var w=document.createTreeWalker(s,NodeFilter.SHOW_TEXT),n;
+  while((n=w.nextNode())){var p=n.parentNode;if(!n.nodeValue.trim()||p.closest('[data-bx-off],svg'))continue;
+   var o=n.nodeValue,m='',map=[],loc=[];
+   for(var i=0;i<o.length;i++){var c=N(o[i]);for(var j=0;j<c.length;j++){m+=c[j];map.push(i);}}
+   T.forEach(function(x){var k=m.indexOf(x);while(k>-1){var r=document.createRange();r.setStart(n,map[k]);r.setEnd(n,map[k+x.length-1]+1);loc.push(r);k=m.indexOf(x,k+x.length);}});
+   loc.sort(function(a,b){return a.startOffset-b.startOffset;});
+   loc.forEach(function(r){occ.push(r);oc[s.id]++;});}});
+ each('.idx>ul a,.fnav li:not(.bx-li) a',function(a){var id=(a.getAttribute('href')||'').slice(1);if(!(id in ct))return;
+  var v=ct[id]?(oc[id]||ct[id]):0,li=a.parentNode,ic=a.querySelector('.ic');
+  [li,a,ic].forEach(function(e){if(e)e.setAttribute('data-bx-n',v);});
+  if(!v){li.setAttribute('data-bx-zero','');a.setAttribute('data-bx-zero','');a.setAttribute('title','Sem resultados aqui — clique para limpar a busca e ver esta seção');}});
+ if(HL&&occ.length)CSS.highlights.set('tjpr-busca',new Highlight(...occ));
+ estado(true,!tot);texto();
+}
+function ir(d){
+ if(ultimo!==N(inp.value.trim()))filtrar();
+ if(!occ.length){var f=R.querySelector('section.sec:not([data-bx-off])');if(f)f.scrollIntoView({behavior:'smooth',block:'start'});return;}
+ cur=cur<0?(d>0?0:occ.length-1):(cur+d+occ.length)%occ.length;
+ var r=occ[cur];if(HL){var h=new Highlight(r);h.priority=1;CSS.highlights.set('tjpr-busca-atual',h);}
+ var el=r.startContainer.parentElement;if(el)el.scrollIntoView({behavior:'smooth',block:'center'});
+ texto();
+}
+function agenda(){clearTimeout(tm);tm=setTimeout(filtrar,160);}
+function limpar(){inp.value='';if(F)F.value='';filtrar();}
+function aviso(t){if(!bar||!msg)return;clearTimeout(avT);msg.textContent=t;bar.classList.add('bxb-aviso');avT=setTimeout(function(){bar.classList.remove('bxb-aviso');if(!R.classList.contains('bx-on'))msg.textContent='';},3500);}
+function tecla(e,src){if(e.key==='Escape'){e.preventDefault();limpar();}
+ else if(e.key==='Enter'){e.preventDefault();if(src!==inp)inp.value=src.value;ir(e.shiftKey?-1:1);}}
+inp.addEventListener('input',agenda);
+inp.addEventListener('keydown',function(e){tecla(e,inp);});
+if(F){F.addEventListener('input',function(){inp.value=F.value;agenda();});F.addEventListener('keydown',function(e){tecla(e,F);});}
+each('.fnav .bx-x',function(b){b.addEventListener('click',limpar);});
+if(bar){
+ var bt=function(sel,f){var b=bar.querySelector(sel);if(b)b.addEventListener('click',f);};
+ bt('.bxb-prev',function(){ir(-1);});bt('.bxb-next',function(){ir(1);});
+ bt('.bxb-x',function(){limpar();aviso('Busca limpa. A página completa voltou a ser exibida.');});
+}
+each('.idx>ul a,.fnav li:not(.bx-li) a',function(a){a.addEventListener('click',function(){
+ if(R.classList.contains('bx-on')&&a.hasAttribute('data-bx-zero')){var nome=a.textContent.trim();limpar();aviso('Busca limpa para mostrar “'+nome+'”.');}});});
+R.classList.add('bx-js');
+})();
+</script></div>

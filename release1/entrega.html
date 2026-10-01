@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estágio · release 1</title>
+<style>
+:root{--navy:#002a3a;--mint:#49c5b1;--txt:#29434b;--muted:#566970;--line:#e1e8eb;--paper:#f4f8f8;--gold:#eeb134}
+*{box-sizing:border-box}body{margin:0;background:#eef2f3;color:var(--txt);font:15px/1.65 Arial,Helvetica,sans-serif}
+.wrap{max-width:1300px;margin:0 auto;padding:0 20px 80px}
+header.top{margin:0 0 24px;padding:36px 0 28px;background:var(--navy);color:#fff}
+header.top .wrap{padding-bottom:0}
+header.top p.e{margin:0 0 8px;color:var(--mint);font-size:12px;font-weight:700;letter-spacing:1.4px}
+header.top h1{margin:0 0 8px;font-size:28px;line-height:1.2}header.top p{max-width:1000px;margin:0 0 16px;color:#d5e8ea}
+.btns{display:flex;flex-wrap:wrap;gap:8px}.btns a{display:inline-block;padding:8px 16px;border-radius:8px;background:var(--mint);color:var(--navy);font-size:14px;font-weight:700;text-decoration:none}
+nav.ir{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}nav.ir a{padding:6px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--navy);font-size:14px;font-weight:700;text-decoration:none}
+.card{margin:0 0 24px;padding:24px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.card h2{margin:0 0 4px;color:var(--navy);font-size:22px}.card h3{margin:24px 0 10px;color:var(--navy);font-size:16px}
+.prob{max-width:1100px;margin:0 0 16px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#fff}figure img{display:block;width:100%}figure a{display:block;cursor:zoom-in}
+figcaption{padding:12px 16px;border-top:1px solid var(--line);font-size:14px}figcaption b{display:block;margin:0 0 2px;color:var(--navy);font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--navy);background:var(--paper)}
+td.n{font-weight:700;color:var(--navy)}
+.ok{color:#1d6b5e;font-weight:700}.x{color:#a3301a;font-weight:700}
+code{padding:1px 6px;border-radius:4px;background:var(--paper);font-size:13px;overflow-wrap:anywhere}
+ul,ol{padding-left:20px}li{margin:0 0 6px}
+.perg{border:2px solid var(--mint)}
+@media (max-width:1000px){.grid,.g3{grid-template-columns:1fr}}
+.alt{font-style:italic}
+td.fn code{white-space:nowrap;overflow-wrap:normal}
+.warn{border:2px solid var(--gold);background:#fffaf0}
+
+
+
+.warn{border:2px solid var(--gold);background:#fffaf0}
+</style></head><body>
+<header class="top"><div class="wrap"><p class="e">PÁGINA DE ESTÁGIO · RELEASE 1</p><h1>Versão para publicar, a partir do seu C-update</h1>
+<p>A tem o menu lateral flutuante; B não tem nada flutuante e põe um “Voltar ao topo” no fim de cada subseção. O conteúdo é o mesmo nas duas.</p>
+<div class="btns"><a href="previa-estagiario-release1-A.html">Prévia A · com menu flutuante</a><a href="previa-estagiario-release1-B.html">Prévia B · com “Voltar ao topo”</a></div></div></header>
+<div class="wrap">
+<section class="card warn"><h2>Para publicar</h2><ul>
+<li><b>Documentos do 3.2:</b> Ofício de Remanejamento (PDF, 102 KB), Ofício de Permuta (PDF, 43 KB) e Declaração de Nepotismo (PDF, 389 KB) já apontam para o portal; os três respondem e o formato e o tamanho aparecem no link, como nos demais documentos.</li>
+<li><b>Arquivos para o portal:</b> <code>estagiario-release1-A.html</code> ou <code>estagiario-release1-B.html</code>. As prévias e o render servem só para conferir.</li>
+</ul></section>
+<section class="card"><h2>Seu C-update</h2>
+<p class="prob">O C-update partiu da v51 B. As 9 alterações de texto foram aplicadas também à A, sem mudar mais nada. O texto visível da release B é idêntico ao do C-update, salvo os ajustes abaixo, combinados na revisão.</p>
+<table><thead><tr><th>Onde</th><th>No C-update</th><th>Na release</th></tr></thead><tbody>
+<tr><td class="n">Certidões pelo Mensageiro</td><td>“o documento deve ser apresentado na tarefa do Hércules…”</td><td>“as certidões devem ser apresentadas na tarefa do Hércules…” (o parágrafo fala de “essas certidões”)</td></tr>
+<tr><td class="n">Certidão de casamento</td><td>“se houver mudança no percurso do processo admissional, toda a documentação deve ser atualizada de acordo.”</td><td>“se o estado civil mudar durante o processo admissional, toda a documentação deve ser atualizada.”</td></tr>
+<tr><td class="n">Nome da unidade</td><td>SEGEP só nas inscrições; “Departamento de Gestão de Recursos Humanos” em outros 5 lugares</td><td>“Secretaria de Gestão de Pessoas” nos 6 (certidão de horas ×3, desligamento e regra de remanejamento)</td></tr>
+<tr><td class="n">Menu lateral (A)</td><td>—</td><td>“Remanejamento e permuta”, como o novo título do 3.2</td></tr>
+</tbody></table></section>
+<section class="card"><h2>Imagens no portal</h2>
+<p class="prob">As 6 imagens apontam para os documentos do portal (JPG, as mesmas artes da pasta assets), sem o <code>?version=…&amp;t=…</code>: esse trecho só força um novo download, e sem ele o portal entrega sempre a versão mais recente. O código longo no fim do endereço identifica o arquivo e não muda se o título for editado. Conferi as 6: respondem, carregam na página e têm as dimensões declaradas.</p>
+<div class="grid"><figure><a href="qa/capa5-932.png" target="_blank"><img src="qa/capa5-932.png" alt="Capa de Atendimento" loading="lazy"></a><figcaption><b>Nova arte do Balcão</b> Sem o título na arte; texto alternativo novo: “Ilustração: uma pessoa acena para quatro colegas numa videochamada, no notebook.”</figcaption></figure>
+<figure><a href="qa/capa5-390.png" target="_blank"><img src="qa/capa5-390.png" alt="Capa de Atendimento no celular" loading="lazy"></a><figcaption><b>Balcão no celular</b> A ilustração fica no centro-direita: no celular, o recorte da capa acompanha a ilustração.</figcaption></figure></div>
+<div class="grid" style="margin-top:16px"><figure><a href="qa/capa1-932.png" target="_blank"><img src="qa/capa1-932.png" alt="Capa da etapa 1" loading="lazy"></a><figcaption><b>Capa da etapa 1</b></figcaption></figure><figure><a href="qa/cartilha-932.png" target="_blank"><img src="qa/cartilha-932.png" alt="Cartão da cartilha" loading="lazy"></a><figcaption><b>Capa da cartilha</b></figcaption></figure></div></section>
+<section class="card"><h2>Limpeza</h2><p class="prob">Saíram os comentários de desenvolvimento do HTML (cartões desativados, notas de versão) e os comentários do CSS. Ficaram só os avisos para manter os valores da bolsa. Os títulos de seção dentro dos scripts ficaram: removê-los automaticamente arriscaria quebrar o código, e eles não aparecem para ninguém.</p></section>
+<section class="card"><h2>Acessibilidade</h2><p class="prob">A e B: axe-core 4.13 sem violações; o botão “Aumentar a fonte” do portal acompanha; nada fora da tela em 320 px; nenhum texto cortado com o espaçamento da WCAG 1.4.12.</p></section>
+<section class="card perg"><h2>Pendências</h2><ol><li><b>Passo 5 do Hércules (anexar):</b> continua genérico; com capturas da tarefa aberta, eu detalho.</li></ol></section>
+</div></body></html>
