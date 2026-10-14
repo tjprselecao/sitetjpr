@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estágio · release 2</title>
+<style>
+:root{--navy:#002a3a;--mint:#49c5b1;--txt:#29434b;--muted:#566970;--line:#e1e8eb;--paper:#f4f8f8;--gold:#eeb134}
+*{box-sizing:border-box}body{margin:0;background:#eef2f3;color:var(--txt);font:15px/1.65 Arial,Helvetica,sans-serif}
+.wrap{max-width:1300px;margin:0 auto;padding:0 20px 80px}
+header.top{margin:0 0 24px;padding:36px 0 28px;background:var(--navy);color:#fff}
+header.top .wrap{padding-bottom:0}
+header.top p.e{margin:0 0 8px;color:var(--mint);font-size:12px;font-weight:700;letter-spacing:1.4px}
+header.top h1{margin:0 0 8px;font-size:28px;line-height:1.2}header.top p{max-width:1000px;margin:0 0 16px;color:#d5e8ea}
+.btns{display:flex;flex-wrap:wrap;gap:8px}.btns a{display:inline-block;padding:8px 16px;border-radius:8px;background:var(--mint);color:var(--navy);font-size:14px;font-weight:700;text-decoration:none}
+nav.ir{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}nav.ir a{padding:6px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--navy);font-size:14px;font-weight:700;text-decoration:none}
+.card{margin:0 0 24px;padding:24px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.card h2{margin:0 0 4px;color:var(--navy);font-size:22px}.card h3{margin:24px 0 10px;color:var(--navy);font-size:16px}
+.prob{max-width:1100px;margin:0 0 16px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#fff}figure img{display:block;width:100%}figure a{display:block;cursor:zoom-in}
+figcaption{padding:12px 16px;border-top:1px solid var(--line);font-size:14px}figcaption b{display:block;margin:0 0 2px;color:var(--navy);font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--navy);background:var(--paper)}
+td.n{font-weight:700;color:var(--navy)}
+.ok{color:#1d6b5e;font-weight:700}.x{color:#a3301a;font-weight:700}
+code{padding:1px 6px;border-radius:4px;background:var(--paper);font-size:13px;overflow-wrap:anywhere}
+ul,ol{padding-left:20px}li{margin:0 0 6px}
+.perg{border:2px solid var(--mint)}
+@media (max-width:1000px){.grid,.g3{grid-template-columns:1fr}}
+.alt{font-style:italic}
+td.fn code{white-space:nowrap;overflow-wrap:normal}
+.warn{border:2px solid var(--gold);background:#fffaf0}
+
+
+
+.warn{border:2px solid var(--gold);background:#fffaf0}
+</style></head><body>
+<header class="top"><div class="wrap"><p class="e">PÁGINA DE ESTÁGIO · RELEASE 2</p><h1>Termos do 2.2 em DOCX e PDF, bolinha dos tutoriais e links em https</h1>
+<p>Feita a partir da release 1, com três mudanças: os termos do 2.2, a bolinha dos tutoriais e dois links em https. A tem o menu lateral flutuante; B põe um “Voltar ao topo” no fim de cada subseção.</p>
+<div class="btns"><a href="previa-estagiario-release2-A.html">Prévia A · com menu flutuante</a><a href="previa-estagiario-release2-B.html">Prévia B · com “Voltar ao topo”</a></div></div></header>
+<div class="wrap">
+<section class="card warn"><h2>Para publicar</h2><ul>
+<li>Arquivos para o portal: <code>estagiario-release2-A.html</code> ou <code>estagiario-release2-B.html</code>. As prévias e o render servem só para conferir.</li>
+<li>Os 6 endereços novos respondem (HTTP 200, em https); tipo e tamanho foram conferidos no servidor em 14/10/2026.</li>
+</ul></section>
+<section class="card"><h2>O que mudou</h2>
+<p class="prob">Os três termos davam alerta no download porque os endereços antigos usavam <code>http://</code>. Agora cada um aponta para os documentos novos (https), em DOCX e PDF; os dois formatos têm campos preenchíveis. O título continua levando ao DOCX e, na mesma linha, vem “ou em PDF”.</p>
+<table><tr><th>Termo</th><th>Release 1</th><th>Release 2</th></tr>
+<tr><td class="n">Termo de desistência formal</td><td>DOCX, 14 KB (http)</td><td>DOCX, 14 KB · PDF, 13 KB</td></tr>
+<tr><td class="n">Termo de opção por constar em final de lista</td><td>DOCX, 17 KB (http)</td><td>DOCX, 15 KB · PDF, 46 KB</td></tr>
+<tr><td class="n">Termo de opção por recusar a admissão em comarca diversa</td><td>DOCX, 17 KB (http)</td><td>DOCX, 15 KB · PDF, 14 KB</td></tr></table>
+<h3>Acessibilidade</h3>
+<ul><li>O link do PDF tem o nome do termo só para o leitor de tela. Fora do contexto, ele é lido como “Termo de desistência formal em PDF (13 KB) (abre em nova aba)” (WCAG 2.4.4), e o texto visível fica contido nesse nome (WCAG 2.5.3).</li>
+<li>Os dois links mantêm o aviso “abre em nova aba” e o ↗ escondido do leitor de tela, como nos demais documentos da página.</li>
+<li>“em&nbsp;PDF” não quebra entre linhas no celular. O documento não tem elementos vazios, que o editor do portal apagaria ao salvar.</li>
+<li>A e B: o “Aumentar a fonte” acompanha, nada fica fora da tela em 320 px e nenhum texto fica cortado com o espaçamento da WCAG 1.4.12.</li></ul>
+</section>
+<section class="card"><h2>Bolinha dourada dos tutoriais</h2>
+<p class="prob">Nos tutoriais de Abertura e Movimentação, uma bolinha dourada pulsante marca onde clicar. Ela era um <code>&lt;em class="sc-pin"&gt;&lt;/em&gt;</code> vazio, e o editor do portal apagou os 10 ao salvar (Backup 261014). O mesmo backup mostra que o editor conserva <code>&lt;i&gt;</code> vazio: 240 sobreviveram, inclusive o <code>&lt;i class="sc-car"&gt;</code> desses mesmos itens.</p>
+<ul><li>O pino passou a ser <code>&lt;i class="sc-pin"&gt;&lt;/i&gt;</code>, só HTML e CSS, sem script.</li>
+<li>Comparei no Chrome o estilo calculado dos 10 pinos, em A e B, antes e depois: tudo idêntico (12×12 px, dourado, mesma animação).</li>
+<li>Depois de publicar, vale conferir em um passo dos tutoriais se a bolinha aparece no item destacado.</li></ul></section>
+<section class="card"><h2>Links em https</h2>
+<table><tr><th>Documento</th><th>Antes</th><th>Agora</th></tr>
+<tr><td class="n">Decreto Judiciário nº 2.324/2013 (PDF, 17 KB)</td><td>http://</td><td>https:// · responde 200 direto</td></tr>
+<tr><td class="n">Cartilha de Seleção por Competências (PDF, 1,4 MB)</td><td>http://</td><td>https:// · responde 200 direto</td></tr></table>
+<p class="prob">A página não tem mais nenhum link do portal TJPR em http://.</p></section>
+</div></body></html>
